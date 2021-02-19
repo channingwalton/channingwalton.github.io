@@ -3,16 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+# Channing Walton
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Channing has two decades of software architecture, design and development experience in financial markets, investment banking, internet technologies, media, and academic research. He specialises in agile methods, object oriented programming, and functional programming techniques. Channing has worked with Java since 1995, Scala since 2008, and also on a number of open source projects. He has also given talks at Skills Matter, ScalaDays 2010, Brunel University and a number of banks on Scala and the Fly Object Space.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Prior to working in software, Channing obtained a PhD in electronics, and worked at UCL in atmospheric physics and high-speed opto-electronics.
