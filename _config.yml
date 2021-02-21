@@ -23,14 +23,54 @@ email: channing.walton@underscore.io
 description: >- # this means to ignore newlines until "baseurl:"
   Channing's site for blogs and other musings.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://channingwalton.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: channingwalton
 github_username:  channingwalton
+locale: en-uk
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: mmistakes/so-simple-theme@3.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-paginate
+
+# so-simple-theme settings
+skin: "/assets/css/skins/light.css"
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+
+paginate: 10  # amount of posts to show per page
+paginate_path: /page:num/
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+author:
+  links:
+    - title: Twitter
+      url: https://twitter.com/channingwalton
+      icon: fab fa-twitter-square
+    - title: Instagram
+      url: https://instagram.com/channingwalton
+      icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/channingwalton
+      icon: fab fa-github-square
+
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/channingwalton
+    icon: fab fa-twitter-square
+  - title: GitHub
+    url: https://github.com/channingwalton
+    icon: fab fa-github-square
+  - title: Feed
+    url: feed.xml
+    icon: fas fa-rss-square
 
 # Exclude from processing.
 # The following items will not be processed, by default.
