@@ -37,6 +37,7 @@ plugins:
   - jekyll-paginate
 
 # so-simple-theme settings
+google_analytics: UA-190373175-1
 skin: "/assets/css/skins/light.css"
 google_fonts:
   - name: "Source Sans Pro"
