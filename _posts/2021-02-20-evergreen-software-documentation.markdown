@@ -49,7 +49,7 @@ We need a way to navigate the forest …
 
 ## Maps of Content
 
-[Linking Your Thinking](https://publish.obsidian.md/lyt-kit/_Start+Here) introduces the idea of *Maps of Content* (MOCs) to solve the problem of becoming lost in the forest. I suggest you [read](https://publish.obsidian.md/lyt-kit/Timestamps/2020-08+➡%EF%B8%8F+In+what+ways+can+we+form+useful+relationships+between+notes) their site about MOCs as there is no point reproducing that here.
+[Linking Your Thinking](https://publish.obsidian.md/lyt-kit/_Start+Here) introduces the idea of *Maps of Content* (MOCs) to solve the problem of becoming lost in the forest. I suggest you [read](https://publish.obsidian.md/lyt-kit/MOCs+Overview) their site about MOCs as there is no point reproducing that here.
 
 **TLDR;** MOCs are notes that collate other notes by linking to them, possibly with a narrative, but they are more than just a table of content. Tables of content are rigid, but MOCs link to notes and add their own spin, they sit above the forest of notes, forming a second layer of abstraction and can be notes themselves.
 
