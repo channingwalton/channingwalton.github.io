@@ -27,10 +27,10 @@ At this point many teachers will be screaming, "Of course!!!". But, somehow I di
 I needed to start from being at ease as a foundational principle. What does that mean?
 
 1. First, are you *sitting* comfortably? Is you back straight? Can you sit like that for some time, after all thats what you are going to be doing. If you can't sit on the chair comfortably then things aren't going to go well. Make sure the [bench position](https://youtu.be/5YlKWaPxnj8) is good.
-2. Now rest your hands on the keyboard. Are you still comfortable? Are your shoulders and body relaxed? Are you still sitting comfortably? Is your chair at the right height so that you elbows are slightly above the keyboard? If not, adjust until you are.
+2. Now rest your hands on the keyboard. Are you still comfortable? Are your shoulders and body relaxed? Are you still sitting comfortably? Is your chair still at the [right height](https://youtu.be/5YlKWaPxnj8).
 3. Are your hands touching the keyboard with a good shape? (See [this](https://www.youtube.com/watch?v=r_PPWiTEdNA) or [this](https://www.youtube.com/watch?v=7s4V98-lElk))
 4. Are you still comfortable? Remove all tension by adjusting your position.
-5. Play a note, a five finger scale (C-G), a chord. Are you still comfortable and relaxed. Are you using the lightest touch you can? Is what you're playing sounding even?
+5. Play a note, a five finger scale (C-G), a chord. Are you *still comfortable* and relaxed. Are you using the lightest touch you can? Is what you're playing sounding even, or beautiful?
 6. Do not go beyond this point until you can play something very simple, slowly and completely at ease.
 
 *You need to learn what it feels like to play with complete ease* by playing something so simple (a five note scale) that you can think about your body and not what you're playing. That feeling is what you need to strive for in all your playing, but first you need to know what that feeling is. Once you've felt it you'll never forget it, its almost euphoric.
