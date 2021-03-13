@@ -73,7 +73,7 @@ It has been said the problem now is having *too much* to write about rather than
 
 **Evergreen:** Notes are easy to keep up to date, as they are small, discrete, focussed, searchable, plaintext, and easy to modify.
 
-**Discoverable:** Tools can assist in finding relationships between notes. For example, when a document's name appears in another document but not actually linked a tool such as [Obsidian's Unlinked Mentions](https://publish.obsidian.md/help/How+to/Working+with+backlinks) can see that and suggest adding a link. 
+**Discoverable:** Tools can assist in finding relationships between notes. For example, when a document's name appears in another document but not actually linked a tool such as [Obsidian's Unlinked Mentions](https://publish.obsidian.md/help/How+to/Working+with+backlinks) can see that and suggest adding a link.
 
 Surprising ideas can emerge as relationships between notes emerge.
 
@@ -124,6 +124,7 @@ MOCs enable us to navigate the notes, they are maps offering a way of representi
 Using a system like this for software would be an interesting experiment, I don't think anyone has tried doing this kind of thing collectively but I'd be happy to learn others have had this idea before me — I'd be astonised if someone hadn't already.
 
 ## Interesting Stuff
+
 - [Evergreen Notes](https://notes.andymatuschak.org/Evergreen_notes)
 - [Linking Your Thinking](https://publish.obsidian.md/lyt-kit/_Start+Here)
 - [Zettelkasten Overview](https://zettelkasten.de/posts/overview/)
