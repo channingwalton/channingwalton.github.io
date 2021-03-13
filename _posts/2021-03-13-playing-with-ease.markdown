@@ -20,7 +20,7 @@ Playing with complete ease is very difficult to master. How does Horowitz do [th
 
 In trying to achieve this elusive quality of complete ease my big mistake has been to assume that *ease* will emerge from lots and lots of hard, technical practice.
 
-But I was wrong — at least for me. I got this completely backwards. My recent experience of flipping things around are proving how badly I got this wrong. Simple put, **start** with being at ease and relaxed and then build everything else on top of that foundation. Ease cannot be added afterwards.
+But I was wrong — at least for me. I got this completely backwards. My recent experience of flipping things around are proving how badly I got this wrong. Simply put, **start** with being at ease and relaxed and then build everything else on top of that foundation. Ease cannot be added afterwards.
 
 At this point many teachers will be screaming, "Of course!!!". But, somehow I didn't really get it, and I've been told it in lots of ways, but it has always been indirect: "slow down", "relax", "curl your fingers", "don't tense up".
 
