@@ -41,6 +41,6 @@ Fundamentally, I don't think its possible to develop playing at ease as an after
 
 The work of a lifetime is to learn how to keep yourself in that state whilst playing more and more difficult music.
 
-ps. My brother, Lance, tells me that this is what the [Leschetizky Method](https://en.wikipedia.org/wiki/Theodor_Leschetizky) is. I am very happy that I'm in good company.
+ps. My brother, Lance, tells me that this is what the [Leschetizky Method](https://en.wikipedia.org/wiki/Theodor_Leschetizky) espouses. I am very happy that I'm in good company.
 
 ---
