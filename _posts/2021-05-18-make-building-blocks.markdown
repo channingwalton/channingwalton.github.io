@@ -70,3 +70,10 @@ form a bigger picture. They might notice duplication, or groups of functions
 that relate to each other, or remember other functions in other places that look
 the same. They're now able to start building structures at a higher level of
 abstraction. Without those small functions they could not do that.
+
+## Thoughts
+
+This seems too simple, but it is a prerequisite to being able to understand what
+the code is built *of*. The programmer still needs to make good choices about
+how to compose those functions, but at least they have the possibility to do it
+now. Without decomposed functions, there can be no composition.
