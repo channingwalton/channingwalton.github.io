@@ -8,8 +8,8 @@ categories:
 
 How do we write software that is simple, extensible, composeable? This is a very difficult question to answer.
 
-It is Quality Without a Name, a phrase coined by Christopher Alexander in his book,
-*The Timeless Way of Building*, which is hard to describe but we all know it when we see it.
+Good software has *Quality Without a Name*, a phrase coined by Christopher Alexander in his book
+*The Timeless Way of Building*, a quality that is hard to create and describe but we all know it when we see it.
 
 The best we can do is to find heuristics which help us produce simple, beautiful software, and here
 I discuss what I believe to be the most fundamental step which is so often not done.
