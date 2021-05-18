@@ -47,8 +47,8 @@ google_fonts:
 
 paginate: 10  # amount of posts to show per page
 paginate_path: /page:num/
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
+category_archive_path: "/categories#"
+tag_archive_path: "/tags#"
 
 author:
   links:
