@@ -7,17 +7,18 @@ categories:
 ---
 
 How do we write software that is simple, extensible, composeable? This is a very difficult question to answer.
-It is [[Quality Without a Name]], a phrase coined by [[@Christopher Alexander]] in his book,
-[[The Timeless Way of Building]], which is hard to describe but we all know it when we see it.
 
-The best we can do is to find heuretics which help us produce simple, beautiful software, and here
+It is Quality Without a Name, a phrase coined by Christopher Alexander in his book,
+*The Timeless Way of Building*, which is hard to describe but we all know it when we see it.
+
+The best we can do is to find heuristics which help us produce simple, beautiful software, and here
 I discuss what I believe to be the most fundamental step which is so often not done.
 
 ## Axioms
 
-1. A well designed system is built from well designed components built from smaller well designed components built from well designed elements such as functions, data types, objects, etc. The paradigm – functional programming, object orientation, etc – really doesn't matter, they all offer the means to write well designed systems.
+1. A well designed system is built from well designed components built from smaller well designed components built from well designed elements such as functions, data types, objects, etc. The paradigm – functional programming, object orientation, etc., really doesn't matter, they all offer the means to write well designed systems.
 2. Well designed components, compose well.
-3. For composition to be possible, composable elements must exist.
+3. For composition to be possible, composeable elements must exist.
 4. For a thing to be quickly and easily understood by a human, it must be comprised of a small number of elements, six at most for the average mind. With experience we are able to chunk information and hold more information, but we are still limited to six chunks.
 
 ## Decomposition
@@ -30,7 +31,7 @@ is a good technique to produce code that is made from lots of small parts, from 
 
 Instead of writing code in a depth first traversal, which is error prone, stressful, and frustrating,
 write code assuming the functions you need already exist. This means that you are only having to
-think at one level of abstraction, since anything you need at lower level *already exists*, in the future.
+think at one level of abstraction, since anything you need at a lower level *already exists*, in the future.
 
 Also, you're likely to write code that resembles a description of the algorithm:
 
@@ -45,7 +46,7 @@ end
 
 ### Existing Code
 
-The most fundamental step to satisfy the axoims is simply to *extract*. The parts of methods,
+The most fundamental step to satisfy the axioms is simply to *extract*. The parts of methods,
 functions, procedures, expressions, and so on, should be extracted out until those functions
 are [tiny](https://twitter.com/deusaquilus/status/1394011278843199491?s=20) – one
 expression or one control structure in a function or method.
