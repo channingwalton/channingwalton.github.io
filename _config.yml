@@ -38,6 +38,12 @@ plugins:
 
 # so-simple-theme settings
 google_analytics: UA-190373175-1
+analytics:
+  provider               : "google-gtag"
+  google:
+    measurement_id       : "G-59MKSJ722B"
+    anonymize_ip         : false
+    
 skin: "/assets/css/skins/light.css"
 google_fonts:
   - name: "Source Sans Pro"
