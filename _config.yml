@@ -20,7 +20,7 @@
 
 title: Channing Walton
 email: channing.walton@underscore.io
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- # this means to ignore newlines until the next field
   Channing's site for blogs and other musings.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://channingwalton.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
