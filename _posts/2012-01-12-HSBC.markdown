@@ -1,0 +1,72 @@
+---
+title: "HSBC - A Successful Delivery"
+date: 2012-01-12 00:00:00 +0000
+permalink: /posts/2012-01-12/HSBC
+description: "We’ve been working on delivering HSBC’s Clearing Connectivity Layer and OTC Cleared Trade Acceptance System in 2011, went live in December delivering our first release early."
+categories: 
+  - agile
+tags:
+  - scala
+  - programming
+  - hsbc
+  - agile
+---
+
+Over the last few months, we’ve been working on delivering HSBC’s Clearing Connectivity Layer and OTC Cleared Trade Acceptance System.
+We went live early December, and in fact, we delivered our first release early.
+
+The system enables HSBC to handle the processing of all cleared interest rate and credit derivatives from multiple market participants. The first release provided full connectivity to the [London Clearing House](https://web.archive.org/web/20170421152931/http://www.lchclearnet.com/ "LCH Clearnet"), with the [Chicago Mercantile Exchange](https://web.archive.org/web/20170421152931/http://www.cmegroup.com/ "CME") and the [Intercontinental Exchange](https://web.archive.org/web/20170421152931/http://www.theice.com/ "ICE") following shortly.
+
+We had a tight deadline and quite a lot of things to figure out. The project had been difficult to analyse in the past as a result of changes in legislation and many other unknowns. So how did we do it?
+
+## Talking
+
+The first thing we always do is talk to the business and figure out what is needed. Not in abstract business terms or strategic direction, but what the _actual_ user sitting in front of our app is _actually_ going to see, do and expect. Whilst the general business background is useful context and necessary, it is woefully inadequate for building a system.
+
+Having the people who are going to _actually_ build your system talk, _in person_, to the people that are _actually_, physically, going to use that system is critical. Not managers talking to managers but the people doing the work. And we do that every day, for every feature!
+
+## Minimal Viable Product
+
+The next critical step is establishing the absolute minimum that will enable the system to be useful, and deliver that. **Nothing else!** (until next week)
+
+It is surprisingly difficult to help stakeholders become accustomed to focussing on what is needed for the next release. IT has done a really good job of telling people they need to write down all their requirements for the next year or they will not get them. We have quite a bit of work to do to undo that ridiculous notion. But when the business understand that we aren’t saying we won’t let them have a feature, just that we want them to prioritise what they want for the next release (next week), and they can change their mind whenever they like, they are very happy.
+
+## Who Else Cares?
+
+I have talked about the business as if they are the only interested party. Not so. We talk to every stakeholder we can find: senior management, BAs, support people, release people, release boards, architects; everyone who might ever have some kind of interest in the system. They all have needs that have to be addressed and prioritised. On one project we were able to name 23 different stakeholder roles for a project, which was surprising to everyone who thought there was only one stakeholder.
+
+## Planning
+
+Having established a backlog of stuff, we maintain it by planning weekly with all stakeholders, and marvel at how much priorities change, new work appears and old work disappears from week to week. But thats all good! Every change is welcome, and shows how badly wrong things would have gone had we tried to _plan-it-up-front_.
+
+## Where’s the Code?
+
+Every day, the team has a stand up to discuss what they are going to do. Then, we implement some features.
+
+1. pair up with another team member in the stand up
+2. talk to the user and find out what they want, sketch ideas out on paper or mock them up until enough is understood
+3. write a failing acceptance test with the user. We use [Specs2](https://web.archive.org/web/20170421152931/http://etorreborre.github.com/specs2/ "Specs2") but you can use whatever you like so long as it produces some kind of user visible result
+4. make the acceptance test pass by typing some code in your IDE, writing unit tests as necessary
+
+However, a lot of what we did involved communication with other systems too for which we required _real_ samples of messages since nothing had schemas etc. This was where a lot of time was spent, again in dialog with stakeholders to ensure that the messages we process and respond with were correct.
+
+## Good, all done then!
+
+No. When we think we’ve finished a feature we demo it to the user as soon as possible – we don’t wait to the end of the iteration. They can play with it and change things which they often do when they see something working for real.  And thats all good, we want them to have something useful.
+
+## Builds?
+
+Part of the development practice is to commit code frequently ensuring tests always pass. People are surprised by how often we mean by _frequently_. We mean _every single time you complete a piece of work and all the tests pass locally_. That happens about once an hour but can be more frequent.
+
+We also use [TeamCity](https://web.archive.org/web/20170421152931/http://www.jetbrains.com/teamcity/ "TeamCity") to keep us sane but again there are many alternatives.
+
+Finally, deployment. At the start of all project’s we always have a single mantra about deployment: _Thou must automate the deployment_. More than that, the same deployment script should work on every dev, test, uat and production environment. Sometimes, the production environment needs to be subtly different, but we try to make the other environments as close to production as possible.
+
+## Technology
+
+We built the system in [Scala](https://www.scala-lang.org/) with [Liftweb](https://www.liftweb.net). It was tested with [Specs2](https://etorreborre.github.io/specs2/) and [sbt](https://www.scala-sbt.org) for builds. Scala is significantly more productive than Java, and Liftweb enabled us to build a robust, secure, dynamic web application very quickly.
+
+## Summary
+
+Is this starting to sound familiar? Yup, its basically an agile method using practices from XP, Scrum, Kanban, anything that works _for this client in this project with this team_. And no, you can’t transplant it to another team! They will have to figure out what works for them, and when we move to another project, we have to figure out what will work for the new environment.
+
