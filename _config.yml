@@ -30,7 +30,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-59MKSJ722B"
+    tracking_id          : "G-MWNHFJ9F4H"
 
       # Outputting
 permalink: /:categories/:title/
