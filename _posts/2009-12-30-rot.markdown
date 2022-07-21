@@ -1,0 +1,81 @@
+---
+title: "Producing Systems That Do Not Rot"
+date: 2009-12-30 00:00:00 +0000
+permalink: /posts/2012-01-12/rot
+description: "How can we produce software systems that do not rot?"
+categories: 
+  - agile
+tags:
+  - agile
+  - software quality
+---
+
+I was driven to write this article after reading Kirk Knoernschild’s blog about [Rotting Design](https://dzone.com/articles/rotting-design) and felt I needed to say something.
+
+In Kirk’s article he states two things, amongst others, which caught my attention:
+
+1. Over time, at least a portion of every enterprise software system experiences the problem of rotting design.
+2. Fred Brooks: “All repairs tend to destroy the structure, to increase the entropy and disorder of the system. Less and less effort is spent on fixing the original design flaws; more and more is spent on fixing flaws introduced by earlier fixes. As time passes, the system becomes less and less well-ordered. Sooner or later the fixing ceases to gain any ground. Each forward step is matched by a backward one. Although in principle usable forever, the system has worn out as a base for progress.”
+
+My initial reaction to both of these was to be both irritated and depressed, particularly with Fred’s statement. However, my irritation is not with Kirk or Fred but rather the sad fact that they are right and that most people involved in software development use it as an excuse not to do better. Its a self-perpetuating phenomenon.
+
+I find it doubly irritating because over the last 20 years I have seen a number of systems that do not rot in the manner described. Indeed, not only do they not rot they actually become easier to work with over time and have incredibly low bug counts.
+
+So how did those teams do it?
+
+## Trust and Respect
+
+Mutual trust between management, developers, users and analysts is of fundamental importance. When a developer says “no we can’t just add a column to the table” then people back off and respect the expert’s opinion. That’s not to say that questions shouldn’t be asked – quite the opposite. Because we trust each other we can ask questions in a non-confrontational, exploratory environment, but ultimately the expert’s opinion must be respected.
+
+Trust also enables people to explore and develop in new and interesting ways without fear of failure, more of which below.
+
+## People
+
+You cannot build high quality software with poor quality people.
+
+Writing code is easy. Writing code that is easy to maintain, extend, doesn’t rot, doesn’t crash, doesn’t require a production support team, demands highly skilled, experienced people. I am not just talking about developers here; I include management, analysts, developers and anyone else involved in the system you are building.
+
+## Process
+
+You cannot build high quality software with a poor quality process.
+
+I’ve never seen a waterfall project succeed. Ever. Don’t do it. Royce never intended the wholesale adoption of the waterfall process which he described as ‘high risk and invites failure’. If you don’t know who I’m talking about then you have another problem. Go and learn something about process and where it comes from and where it’s going. Find out who Deming was while you’re at it. Read about iterative and incremental methods, Agile methods, Kanban and Lean, etc.
+
+## Accepting Acceptable Failure
+
+By _acceptable failure_ I do not mean that the system was deployed and it didn’t do what the users asked for or it fell over in a sorry heap. That is unacceptable failure.
+
+Acceptable failure is to explore a solution to a problem and find that the solution does not work or is not good enough. This kind of acceptable failure must be going on as part of the discovery and learning process of the team. If it isn’t then I would be concerned that the system as a whole is not as good as it could be.
+
+Accepting this kind of failure requires a deep respect and humility between all members of the team.
+
+## Technical Practices
+
+Test everything. Everything!!! That means production code, scripts, batches, anything that makes your system run. Test everything without fail and without compromise.
+
+Refactor everything. Everything!!! That means production code, unit tests, acceptance tests, scripts, batches, anything that makes your system run. Refactor everything without fail and without compromise.
+
+If you code is difficult to refactor then you have a big problem. Stop everything and fix it. Today. Now. No, now!
+
+Define **DONE**. I hear “its _development complete,_ we just need to test it and fix it” far too often and its always in a failing system. To me, DONE means ready to go to production. Nothing less. Not ready for testing, or staging, or whatever else.
+
+The deployment process should be fully automated. By that I mean you are able to go to a command line or equivalent, type a single command or press a button and sit back whilst the system is deployed. Don’t argue with me, I’ve done it often enough to know its possible. I’ll accept that retrofitting this to a legacy system is very, very difficult, but not impossible.
+
+## The Real World
+
+I am sure a lot of readers are now thinking, “Yeah but in the real world blah blah blah”. First, *you* created your world!!! Second, this *is* my real world. I am describing my experience and the experience of many successful developers I’ve worked with in a range of industries. Don’t bother arguing with me about whether this is feasible.
+
+## No Time
+
+I am sure some readers are thinking, “We don’t have the time for all this testing and refactoring nonsense”. Time. What is meant by ‘time’ here?
+
+The _lack of time_ argument usually surfaces when the development process values arbitrary targets, deadlines, measurements and, worst of all, maximum work in progress. This leads people to minimise the time taken for individual tasks today, rather than maximising the delivery of value overall. They never spend time investing in the system as a whole and, therefore, never reach the point where the costs of writing tests and refactoring is low.
+
+In my experience, systems developed as I have described actually _facilitate_ changes and additions rather than impede them. The code is malleable, understandable and a pleasure to work with.
+
+## The Culture
+
+I have revisited a number of teams that have adopted good practices and have found something very remarkable. Even when the original team members have left and been replaced by new people, the culture of the original team survives and the quality of software produced is sustained.
+
+The investment in good people, processes, and technical practices pays dividends for the life of the project with no sign of rot at all.
+
