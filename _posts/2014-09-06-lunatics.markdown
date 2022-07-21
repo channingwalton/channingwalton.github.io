@@ -1,0 +1,66 @@
+---
+title: "Lunatics Running the Asylum"
+date: 2014-09-06 00:00:00 +0000
+permalink: /posts/2014-09-06/lunatics
+description: "Who is charge around here? IT or the business?"
+categories: 
+  - agile
+tags:
+  - agile
+---
+
+_IT departments — on issues ranging across the spectrum from Software Process to technology — seek to have decision-making discretion taken from those directly involved, who have personal knowledge and a personal stake, transfer it to middle management who have neither, and who pay no price for being wrong. (With apologies to Thomas Sowell)_.
+
+I have recently read a number of articles discussing how agile, lean, kanban, etc. are now standard methods for large-scale enterprise software delivery, typically in finance. That agile is transforming software development.
+
+My experience is that nothing is further from the truth. Whilst institutions claim to be using more modern techniques, the reality on the ground is very, very different, with people desperately clinging on to ideas they don’t understand, lacking the rigour or discipline to execute those ideas correctly even if they did.
+
+Much of my enterprise IT experience has been in so-called _Rescuing Projects._ The pattern is usually:
+
+- A new project is launched.
+- Business analysts attempt to produce many documents describing the project and its partial solution at random levels of detail.
+- After months of work, the people who are actually going to make the product look at the specs … and _weep_.
+- They attempt to divine what the specifications are trying to say and find more holes than Swiss cheese.
+- After a few attempts to sort out the mess the devs retire hurt knowing how this is going to play out.
+- Development starts, a mess ensues, everyone blames everyone else with a distinctive downhill trend toward _the doers._
+- Eventually a senior business person has enough and demands something dramatic be done, like hiring those crazy people they’ve heard about somewhere.
+- The crazy ones are brought in.
+- The new team are assured by everyone that everything has been thought about and all they need to do is read the specs.
+- The crazy ones politely insist on talking through the fundamental ideas.
+- Weirdly, arguments between analysts and the multiple business groups about those fundamentals arise **on day one**. “How can that possibly be? We’ve been thinking about this for months?”, they ask. Yup.
+- The new team start delivering in a few weeks and continue to build on the system, delivering as often as they possibly can (weekly at best usually in enterprise environments).
+- Soon, within weeks, the product starts diverging from the original plan AND THAT IS GOOD because that means the product is tracking the real needs of the business!
+- People realise just how far off the mark they really were with all their up-front thinking and are ok with that! The system exists, works, and is adapting to changing business needs!
+- Blessed relief!
+- After a year or two, when the pain of previously failure is forgotten, management wants to reassert their authority, impose command and control, off-shore these expensive, difficult crazy people to a cheap consultancy willing to say _Yes_ to everything and not ask awkward questions.
+- The incumbent team decide that their work is done here, apparently someone in another organisation is asking for a bunch of crazy people.
+- Change management teams with no business or IT expertise are brought in to manage the project using using arcane, cargo-cult methods long abandoned by institutions that can’t afford to fail so badly.
+- Walls are put up between the business, off-shore teams, production support and everyone that cares, with management trying to coordinate all activity.
+- More process steps are invented to plaster over the ever increasing stream of problems to make sure they can’t happen again, and of course, that blame can be attributed (usually downwards).
+- Costs go up.
+- The system slowly dies.
+- The business despairs.
+- A new initiative is started to replace this difficult system.
+
+What always seems strange to me is that when things go wrong, the business seem utterly powerless to intervene and demand that they want everything left alone. Rather than basking in the reflected glory of a successful project, IT management prefer to meddle and destroy. Their fear of losing control overrides what they can see so clearly, that this team is working!
+
+This isn’t a small problem, it is an epidemic in large institutions.
+
+I sound bitter, but I’m not. Business teams I’ve worked for have been in violent agreement with me. Very often, they express their very deep frustration a lot more viciously than I’ve ever done directly to IT management. But, because the two pillars of business and IT in large enterprises usually meet only at the most senior levels, any discord is smothered before it reaches anyone that can do anything about it. Its called watermelon reporting — red flags at the lowest level are massaged to amber by lower management and then to green by more senior management.
+
+As an example, quite often we will produce weekly summaries that clearly demonstrate progress, impediments we’ve come across, risks, etc. On one occasion, after the first summary was widely distributed, a senior IT manager replied saying, “This is fantastic, keep it up!”. After the next summary his reply was, “Don’t ever send that again!”. Of course a highlighted risk was so unpalatable it upset people. Later it was explained to me, “Don’t take bad news to senior management, they are emotionally unstable and react very unpredictably to bad news.”
+
+My experience is not unique. Many extremely talented people I know have sworn never to set foot in these enterprises ever again (despite significantly higher compensation). Consequently, experience and talent ebbs away resulting in an irreversible decline of quality and value. The failures that result only seem to entrench IT management further in their extraordinary belief that they can manage their way to quality with a wholly inadequate understanding of Software Process, software delivery, or people. Deming et al must be turning in their graves.
+
+Of course the amount of money wasted during this is astonishing. Only the largest, wealthiest organisations can sustain this level of systemic failure — banks being probably the worst example. I’ve seen teams of 100+ developers literally doing nothing for weeks on end whilst another team attempts to compile the code. In a risk system! You know… the thing that works out if investments are risky. (That is another story.)
+
+So why do I do it? I do it because I’m an optimist and stupidly hope that logic and evidence will win the day — incredibly naive since logic and evidence are little defence against an onslaught of ignorance and fear.
+
+I also do it because I have come to realise that for about two glorious years, it is possible to deliver a great deal of value to a business without significant interference.
+
+But you have to have a good manager on the inside (yes they do exist!), someone that knows how to operate the deflector shields whilst the team and business quietly produce something good. That manager is not managing the team, they are managing the organisation around the team, with an attitude not dissimilar to _Rorschach’s_, “_You don’t understand, I’m not locked in here with you, you are locked in here with me!_”.
+
+After those couple of years, the forces around the team usually align with sufficient coherence to start causing damage and the game is lost.
+
+But until then, its usually really, really good.
+
