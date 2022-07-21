@@ -11,7 +11,6 @@ tags:
   - programming
   - kleisli
 ---
-# A Small Example of Kleisli Arrows
 
 This is a simple example of use of a mysterious beast called a Kleisli arrow.
 
@@ -81,6 +80,4 @@ val multi = (kleisli(opt _) compose (optToList _)) >=> (list _)
   - Kleisli Arrow example at [Cake Solutions](http://www.cakesolutions.net/teamblogs/2011/09/16/kleisli-arrows)
   - [Scalaz Example](http://scalaz.github.com/scalaz/scalaz-2.9.1-6.0.4/doc.sxr/scalaz/example/ExampleKleisli.scala.html)
   - [Kleili Arrow at the Haskell Wiki](http://www.haskell.org/haskellwiki/Arrow_tutorial)
-
----
 

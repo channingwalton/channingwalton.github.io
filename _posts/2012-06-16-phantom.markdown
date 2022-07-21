@@ -11,8 +11,6 @@ tags:
   - programming
 ---
 
-# A Small Example of Phantom Types
-
 Here is an example of so-called phantom types and covariance in Scala to improve type safety and correctness. The example is a simplified version from a real project.
 I present the example as source code so you can copy into an editor and play with it. References for further reading are given at the bottom of the post.
 
@@ -102,6 +100,4 @@ This was exactly what I needed in my real project, I hope its useful to you.
 
 1. [Phantom Types In Haskell and Scala](http://james-iry.blogspot.co.uk/2010/10/phantom-types-in-haskell-and-scala.html)
 2. [Nothing](http://www.scala-lang.org/api/current/scala/Nothing.html)
-
----
 
