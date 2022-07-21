@@ -1,0 +1,86 @@
+---
+title: "A Small (Real) Example of Kleisli Arrows"
+date:  2012-07-02 00:00:00 +0000
+permalink: /posts/2012-07-07/kleisli
+description: "This is a simple example of use of a mysterious beast called a Kleisli arrow."
+categories: 
+  - scala
+  - programming
+tags:
+  - scala
+  - programming
+  - kleisli
+---
+# A Small Example of Kleisli Arrows
+
+This is a simple example of use of a mysterious beast called a Kleisli arrow.
+
+I will be using [Scalaz](http://code.google.com/p/scalaz) for my incantations as it comes with the necessary potions.
+
+## What is the Problem?
+
+You have functions that take a simple type and return higher kinded types like Options or Lists, and you need to compose those functions. You might think you need to get the first result, pattern match on the it, apply it to the second function, repeat. Sounds rather cumbersome.
+
+## Kleisli FTW
+
+The intuition is this:
+
+> a Kleisli is function composition for Monads.
+
+Hmm, lets try again:
+
+> if you have functions that return kinds of things, like Lists, Options, etc, then you can use a Kleisli to compose those functions.
+
+## The Example
+
+```scala
+object Kleisli extends App {
+  import scalaz._
+  import Scalaz._
+
+  // Some methods that take simple types
+  // and return higher-kinded types
+  def str(x: Int): Option[String] = Some(x.toString)
+  def toInt(x: String): Option[Int] = Some(x.toInt)
+  def double(x: Int): Option[Double] = Some(x * 2)
+
+  // Lets compose those functions Ye Olde Way
+  def oldSchool(i: Int) =
+    for (x <- str(i);
+       y <- toInt(x);
+       z <- double(y))
+    yield z
+
+  // Kleisli!
+  val funky = kleisli(str _) >=> (toInt _) >=> (double _)
+
+  println(oldSchool(1)) // Some(2.0)
+  println(funky(1))     // Some(2.0)
+
+  // Lets use symbols!
+  val reallyFunky = ☆(str) >=> (toInt _) >=> (double _)
+}
+```
+
+## Composition
+
+```scala
+def opt(x: Int): Option[String] = Some(x.toString)
+
+def list(x: String) = List(x)
+
+// a function to turn an option into a list
+def optToList[T](o: Option[T]) = o.toList
+
+// now we can compose opt and list using optToList
+val multi = (kleisli(opt _) compose (optToList _)) >=> (list _)
+```
+
+## Further reading
+
+  - Kleisli Arrow example at [Cake Solutions](http://www.cakesolutions.net/teamblogs/2011/09/16/kleisli-arrows)
+  - [Scalaz Example](http://scalaz.github.com/scalaz/scalaz-2.9.1-6.0.4/doc.sxr/scalaz/example/ExampleKleisli.scala.html)
+  - [Kleili Arrow at the Haskell Wiki](http://www.haskell.org/haskellwiki/Arrow_tutorial)
+
+---
+
