@@ -1,8 +1,11 @@
 ---
-layout: post
 title:  "Playing the Piano with Ease"
+description: "Some thoughts about how to play the piano comfortably and with ease."
 date:   2021-03-13 14:00:00 +0000
+permalink: /posts/2020-03-13/PlayingThePianoWithEase
 categories:
+  - music
+tags:
   - music
   - piano
 ---

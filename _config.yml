@@ -7,94 +7,120 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 title: Channing Walton
 email: channing.walton@underscore.io
-description: >- # this means to ignore newlines until the next field
-  Channing's site for blogs and other musings.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://channingwalton.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+description: >- # this means to ignore newlines until "baseurl:"
+   Blogs and other musings
 twitter_username: channingwalton
-github_username:  channingwalton
-locale: en-uk
+github_username: channingwalton
+minimal_mistakes_skin: "dark"
+search: true
 
 # Build settings
-# theme: minima
-remote_theme: mmistakes/so-simple-theme@3.2.0
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
-  - jekyll-paginate
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# so-simple-theme settings
-google_analytics: UA-190373175-1
+# Analytics
 analytics:
-  provider               : "google-gtag"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    measurement_id       : "G-59MKSJ722B"
-    anonymize_ip         : false
-    
-skin: "/assets/css/skins/light.css"
-google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
+    tracking_id          : "G-59MKSJ722B"
 
-paginate: 10  # amount of posts to show per page
+      # Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-category_archive_path: "/categories#"
-tag_archive_path: "/tags#"
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-author:
-  links:
-    - title: Twitter
-      url: https://twitter.com/channingwalton
-      icon: fab fa-twitter-square
-    - title: Instagram
-      url: https://instagram.com/channingwalton
-      icon: fab fa-instagram
-    - title: GitHub
-      url: https://github.com/channingwalton
-      icon: fab fa-github-square
-
-footer_links:
-  - title: Twitter
-    url: https://twitter.com/channingwalton
-    icon: fab fa-twitter-square
-  - title: GitHub
-    url: https://github.com/channingwalton
-    icon: fab fa-github-square
-  - title: Feed
-    url: feed.xml
-    icon: fas fa-rss-square
+include:
+  - _pages
 
 # Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
 # exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
 #   - Gemfile
 #   - Gemfile.lock
-#   - node_modules/
+#   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Channing Walton"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Blogs and other musings"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://channingwalton.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/channingwalton"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/channingwalton"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/channingwalton/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/channing.walton"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/channingwalton"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/channingwalton"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/channingwalton/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/channing.walton"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/

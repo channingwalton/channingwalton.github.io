@@ -1,12 +1,15 @@
 ---
-layout: post
 title:  "Evergreen Software Documentation"
+description: "Software Documentation is hard to do, tedious to maintain, unsatisfactory, and always wrong."
 date:   2021-02-20 21:30:30 +0000
+permalink: /posts/2020-02-20/EvergreenSoftwareDevelopment
 categories:
   - software
   - documentation
-  - evergreen notes
+tags:
   - zettelkasten
+  - software
+  - documentation
 ---
 
 Software Documentation is hard to do, tedious to maintain, unsatisfactory, and always wrong.
