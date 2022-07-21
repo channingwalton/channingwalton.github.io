@@ -1,0 +1,107 @@
+---
+title: "What are you going to do?"
+date:  2015-09-15
+permalink: /posts/2015-09-15/what
+description: ""
+categories: 
+  - programming
+  - agile
+tags:
+  - programming
+---
+
+
+> Its like a finger pointing away to the moon.
+> Don’t concentrate on the finger
+> or you will miss all that heavenly glory.
+> — Bruce Lee in a movie.
+
+There is much arguing about how to deliver high-quality software that satisfies the needs of users and delivers value to the business.
+Arguments about which method, traditional or agile, is best, and heated debates about what each means, seem to rattle around various social media with tedious regularity.
+
+There are even arguments about what methods meant, what they mean now and how the original intent has been lost.
+
+Enormous amounts of time and energy are wasted away squabbling about the one true way of building software and getting absolutely nowhere.
+
+Let us look at the problem differently.
+
+## What do we know?
+
+### Delivery does not happen once
+
+1. Time is spent building the first version of a system
+2. After the first release the software will change and be released again and again with increasing complexity and features
+
+This is true of all software projects and has nothing to do with how it was built, the tools used, the methods employed, the techniques brought to bear, the documentation or other artefacts produced.
+
+### People believe …
+
+1. They understand what the software needs to do
+2. The first release is the single most important goal
+3. The first release must do everything they can think of
+4. They know how to build the system right this time
+5. They know what they mean when they say _agile_ or _traditional_
+6. The problems of others are simple
+7. Their problems are hard
+8. Their job is the most important for a successful delivery
+9. That a system can be accurately specified in a document
+10. That failure cases are a technical detail not a business concern
+11. That the process can be successfully transplanted from one project to another
+
+**They are all wrong about these things and much more.**
+
+## What are you going to do?
+
+1. How is your software going to be built such that it can change, because it is definitely going to do that?
+2. How will you release quickly and reliably, not just once but hundreds or thousands of times?
+3. How are you going to deal with the fact that your requirements/features/stories are wrong?
+4. How will you evaluate whether a new feature is worth doing at all?
+5. How will you decide what gets done first?
+6. Does that date really matter? How do you know?
+7. Are you really going to publish dates without talking to development?
+8. How are you going to tell senior management, “We don’t know yet”?
+9. How will you respond when developers tell you, “We don’t know yet”?
+
+## Hints
+
+1. Accept the reality and experience of half a century of software development that it is hard, complex, and unpredictable
+2. Study methods like XP, Scrum, Royce’s [Waterfall paper](/assets/pdfs/royce1970.pdf){:target="_blank"}
+  - note that Royce was advocating *against* the very thing everyone thinks waterfall is
+3. Get (and accept) help from people that have a magical ability to deliver (see below)
+4. Non-techies, listen to your techies, they have really good ideas based on experience
+5. Techies, listen to the business, they have really good ideas based on experience
+6. [Iterate all the things](/assets/images/XP-feedback.gif){:target="_blank"}
+7. Automate all the things — computers are good at that
+8. Do not focus on just the _happy path_, _unhappy paths_ can often be an order of magnitude more difficult to deal with
+9. Seek out and learn from *Silent Running* teams (see below)
+
+It is worth stating that your system of software delivery will be unique, but will also have much in common with other software development methods: 
+- incremental
+- terative
+- automated
+- feedback
+- learning
+- adjustment
+
+## Silent Running
+
+There are often highly successful teams running completely silent in an organisation.
+
+They disappear into the green on RAG status reports.
+
+They disappear off the bottom of spreadsheets of bug reports, their bug counts are very low.
+
+They don’t get discussed in crisis meetings, they don't have crises.
+
+Their developers are not the *"heroes"* that repeatedly save the day from crises that would otherwise cause the collapse of the organisation. They don't have crises.
+
+There are very few complaints from users because when a system *just works*, nobody notices it.
+
+There are very few complaints from business people because new features just seem to slot in. The only complaint might be that the team is a little hard to work with, that the developers keep objecting to things and pointing out problems.
+
+I have worked in teams like this, often taking projects from multiple disasters and rescuing them. Projects that were deemed impossible. But, after a couple of years of Silent Running, everyone dismisses the project as an easy project.
+
+> Its obviously simple, it has no problems right? Lets outsource it!
+
+Your mission is to find those teams and learn everything you can from them.
+
