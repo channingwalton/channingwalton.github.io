@@ -12,6 +12,11 @@
 - Click on the *Web* tab
 - Click on the details (arrow)
 
+## Troubleshooting
+
+- use `jekyll build --verbose`
+- if a post isn't appearing check that the date isn't in the future
+
 ## Other
 
 - [Site](https://channingwalton.github.io)

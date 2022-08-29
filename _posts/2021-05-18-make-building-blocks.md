@@ -1,8 +1,8 @@
 ---
-title:  "Make Building Blocks"
-description: "Writing software that is simple, extensible, and easy to maintain."
-date: 2021-05-18 10:00:00 +0000
-permalink: /posts/2020-05-18/MakeBuildingBlocks
+title:        "Make Building Blocks"
+description:  "Writing software that is simple, extensible, and easy to maintain."
+date:         2021-05-18 10:00:00 +0000
+permalink:    /posts/2020-05-18/MakeBuildingBlocks
 categories:
   - software
 tags:
