@@ -18,11 +18,11 @@ The problem is that the information is both a [heterarchy](https://en.wikipedia.
 
 The result is that documentation just isn't done, or at best a few documents are produced from different points of view for different audiences — APIs for developers, powerpoint for management, etc., but nothing really captures everything or provides any means of discovery, learning, or synthesis of new ideas.
 
-But perhaps we can improve on this by drawing on the experience of knowledge management and in particular from systems like [Andy Matuschak's](https://andymatuschak.org) [Evergreen Notes](https://notes.andymatuschak.org/Evergreen_notes), [Linking Your Thinking](https://publish.obsidian.md/lyt-kit/_Start+Here) and [Niklas Luhman's](https://en.wikipedia.org/wiki/Niklas_Luhmann) [Zettelkasten](https://zettelkasten.de/posts/overview/) system.
+But perhaps we can improve on this by drawing on the experience of knowledge management and in particular from systems like [Andy Matuschak's](https://andymatuschak.org) [Evergreen Notes](https://notes.andymatuschak.org/Evergreen_notes), [Linking Your Thinking](https://notes.linkingyourthinking.com/Home) and [Niklas Luhman's](https://en.wikipedia.org/wiki/Niklas_Luhmann) [Zettelkasten](https://zettelkasten.de/posts/overview/) system.
 
 ## What was that?
 
-A quick aside — the [Linking Your Thinking](https://publish.obsidian.md/lyt-kit/_Start+Here) website looks interesting, you might be wondering what that was. It was published from [Obsidian.md](https://obsidian.md), a tool that enables everything I'm about to discuss, but from a personal point of view. Documents are written in markdown, linked simply like a wiki, with tags, and importantly, automatic discovery of missing links, and an [amazing graph](https://pbs.twimg.com/media/EjHkSkuXYAM3o9_?format=jpg&name=large) of all your notes.
+A quick aside — the [Linking Your Thinking](https://notes.linkingyourthinking.com/Home) website looks interesting, you might be wondering what that was. It was published from [Obsidian.md](https://obsidian.md), a tool that enables everything I'm about to discuss, but from a personal point of view. Documents are written in markdown, linked simply like a wiki, with tags, and importantly, automatic discovery of missing links, and an [amazing graph](https://pbs.twimg.com/media/EjHkSkuXYAM3o9_?format=jpg&name=large) of all your notes.
 
 Back to the point …
 
@@ -52,7 +52,7 @@ We need a way to navigate the forest …
 
 ## Maps of Content
 
-[Linking Your Thinking](https://publish.obsidian.md/lyt-kit/_Start+Here) introduces the idea of *Maps of Content* (MOCs) to solve the problem of becoming lost in the forest. I suggest you [read](https://publish.obsidian.md/lyt-kit/MOCs+Overview) their site about MOCs as there is no point reproducing that here.
+[Linking Your Thinking](https://notes.linkingyourthinking.com/Home) introduces the idea of *Maps of Content* (MOCs) to solve the problem of becoming lost in the forest. I suggest you [read](https://publish.obsidian.md/lyt-kit/MOCs+Overview) their site about MOCs as there is no point reproducing that here.
 
 **TLDR;** MOCs are notes that collate other notes by linking to them, possibly with a narrative, but they are more than just a table of content. Tables of content are rigid, but MOCs link to notes and add their own spin, they sit above the forest of notes, forming a second layer of abstraction and can be notes themselves.
 
