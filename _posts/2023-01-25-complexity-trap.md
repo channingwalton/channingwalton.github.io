@@ -13,7 +13,7 @@ tags:
   - design
 ---
 
-There often comes a point in complex domains in which people with anything close to a complete understanding of the system behaviour are developers. If you're lucky.
+There comes a point in complex domains where only developers have anything close to a complete understanding of the system behaviour. If you're lucky.
 
 I've worked on projects in finance and media that had reasonably complex behaviour. They start from basic requirements such as a simple, linear, workflow for bank workers to open accounts for new clients.
 
@@ -41,4 +41,4 @@ It is difficult to know when complexity crosses the line where people, particula
 
 We should be sensitive to increasing complexity and explore solutions to reduce it. That can be difficult with large systems built from complex requirements arising from the needs of many stakeholders, each of which may not fully appreciate the problems they're creating for people who work directly with the system.
 
-In our banking system, we ended up providing tools to help users see where applications were in the workflow and why which was very helpful.
+In our banking system, we ended up providing tools to help users see where applications were in the workflow and why, which was very helpful.
