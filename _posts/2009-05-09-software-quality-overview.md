@@ -1,7 +1,7 @@
 ---
 title: "Software Quality - Overview"
-date: 2009-10-13 00:00:00 +0000
-permalink: /posts/2009-10-13/software-quality-overview
+date: 2009-05-09 00:00:00 +0000
+permalink: /posts/2009-05-09/software-quality-overview
 description: "Some thoughts about software quality inspired by the Vignelli Canon"
 categories:
   - software
@@ -49,6 +49,6 @@ Conveniently, these also correspond to the section of Vignelli’s Canon. I’ll
 
 ## An aside
 
-Software is very, very difficult to produce well and takes [years of practice](https://web.archive.org/web/20101023112746/http://norvig.com/21-days.html "Norvig's 21 Days") and active learning for a programmer to produce high quality software. (I use the word _produce_ quite deliberately here for clarity; physically _writing_ software is easy, conceiving an elegant design and executing its coherent realisation is difficult.) A young developer might well look at software written by an old master and easily understand the code in the small but find some aspects of the code difficult to grasp. This is to be expected because as a developer learns more, the range and depth of techniques available to them may enable levels of abstraction too difficult for inexperienced developers to grasp.
+Software is very, very difficult to produce well and takes [years of practice](http://norvig.com/21-days.html "Norvig's 21 Days") and active learning for a programmer to produce high quality software. (I use the word _produce_ quite deliberately here for clarity; physically _writing_ software is easy, conceiving an elegant design and executing its coherent realisation is difficult.) A young developer might well look at software written by an old master and easily understand the code in the small but find some aspects of the code difficult to grasp. This is to be expected because as a developer learns more, the range and depth of techniques available to them may enable levels of abstraction too difficult for inexperienced developers to grasp.
 
 Many developers I respect greatly as software craftsmen have learnt the power of languages like Lisp and Haskell. These are elegant languages enabling a great deal of expression and creativity. But they require a deeper knowledge and experience to apply them well than languages like Java. They can also be difficult for beginners to grasp even at the most basic level. This is common in many crafts where the tools and techniques of master craftsmen are too difficult or dangerous for novices to use: the reeds of wind instruments, the live katana of Iaido masters, or free climbing.

@@ -1,7 +1,7 @@
 ---
 title: "TDD from a Control Theory POV"
-date: 2009-10-02 00:00:00 +0000
-permalink: /posts/2009-10-02/tdd
+date: 2009-05-11 00:00:00 +0000
+permalink: /posts/2009-05-11/tdd
 description: ""
 categories: 
   - agile

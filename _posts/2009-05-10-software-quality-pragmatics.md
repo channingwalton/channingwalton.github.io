@@ -1,7 +1,7 @@
 ---
-title: "Software Quality - Overview"
-date: 2009-10-20 00:00:00 +0000
-permalink: /posts/2009-10-20/software-quality-pragmatics
+title: "Software Quality - Pragmatics"
+date: 2009-05-10 00:00:00 +0000
+permalink: /posts/2009-05-10/software-quality-pragmatics
 description: "Some thoughts about software quality inspired by the Vignelli Canon"
 categories:
   - software
@@ -10,7 +10,7 @@ tags:
   - quality
 ---
 
-This article continues my series on Software Quality.
+This article continues my series on Software Quality, discussing Vignelli's _pragmatics_.
 
 My idea is that we judge quality using the same inbuilt sense of aesthetics as we would a work of art or an everyday object, albeit at quite a high level of abstraction.
 
