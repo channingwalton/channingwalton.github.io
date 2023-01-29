@@ -10,7 +10,6 @@ tags:
   - quality
 ---
 
-
 Walk into a room of software developers and invariably the conversation will turn to the dreadful quality of code in their workplace or the industry.
 
 Developers will speak passionately about such details as Test Driven Development, loose coupling, inversion of control. Or how much better things would be if they could use languages like Ruby/Scala/Clojure/Lisp/Haskell (if they talk about Haskell then hire them).
