@@ -2,12 +2,12 @@
 title: "Software Quality - Overview"
 date: 2009-10-13 00:00:00 +0000
 permalink: /posts/2009-10-13/software-quality-overview
-description: ""
-categories: 
-  - quality
+description: "Some thoughts about software quality inspired by the Vignelli Canon"
+categories:
   - software
 tags:
   - programming
+  - quality
 ---
 
 
