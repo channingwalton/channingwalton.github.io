@@ -3,7 +3,7 @@ Scales practice - accelerate and decelerate
 Beats per bar
 4
 
-Speed up from 60 to 120
+Speed up from 60 to 144
 and then slow down again.
 
 An intro
