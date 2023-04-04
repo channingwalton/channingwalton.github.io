@@ -29,3 +29,5 @@ You can use it to practice changing tempo in that particularly difficult piece o
 
 ## Enter your own tempo description below
 {% include_relative assets/ritronome/rit.html %}
+
+Remember to save your work by copying it to a text file if you want to come back to it later.
