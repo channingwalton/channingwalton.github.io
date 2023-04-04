@@ -1,7 +1,7 @@
 # channingwalton.github.io
 
 - Update the site with `bundle update`
-- Run the site with `bundle exec jekyll server --incremental` or `run.sh`
+- Run the site `run.sh`
 
 ## GA4 tracking details
 
@@ -16,6 +16,7 @@
 
 - use `jekyll build --verbose`
 - if a post isn't appearing check that the date isn't in the future
+- if content or site layout isn't appearing restart the server
 
 ## Other
 

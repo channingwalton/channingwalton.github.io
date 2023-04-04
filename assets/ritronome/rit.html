@@ -1,0 +1,24 @@
+<textarea id="tempoTextArea" rows="10" cols="20">
+My Song
+
+Beats per bar
+4
+
+Fast section:
+1 120
+
+Slow section:
+1 60
+</textarea>
+<br>
+<button onclick="start()" id="startButton">Start</button>
+<button onclick="stop()" id="stopButton" disabled>Stop</button>
+<p></p>
+<label for="songLoader">Load a song</label>
+<select id="songLoader" onchange="loadSong(this.value)">
+    <option value="">Choose a song</option>
+    <option value="song1">Song 1</option>
+    <option value="song2">Song 2</option>
+</select>
+
+<script src="/assets/js/metronome.js"></script>

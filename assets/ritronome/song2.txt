@@ -1,0 +1,9 @@
+Song 2
+
+Beats per bar
+3
+
+1 60
+
+Rit
+1 60-40

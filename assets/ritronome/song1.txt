@@ -1,0 +1,9 @@
+Song 1
+
+Beats per bar
+4
+
+1 120
+
+Change of tempo
+1 60
