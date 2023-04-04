@@ -1,4 +1,4 @@
-Scales
+Scales practice - accelerate and decelerate
 
 Beats per bar
 4
@@ -6,5 +6,9 @@ Beats per bar
 Speed up from 60 to 120
 and then slow down again.
 
-2 60-120
-2 120-60
+An intro
+1 60
+
+Go!
+2 60-144
+2 144-60
