@@ -51,27 +51,33 @@ function start() {
   const { beatsPerBar, tempoRanges } = parseTempoBlock(tempoBlock);
 
   audioContext = new AudioContext();
-  let startTime = audioContext.currentTime;
+  let clickTime = audioContext.currentTime;
+  let totalBeats = 0
 
   tempoRanges.forEach(({ bars, startBPM, endBPM }) => {
+    //console.log("bars", bars, "startBPM", startBPM, "endBPM", endBPM);
     const beats = bars * beatsPerBar;
-    const delta = (endBPM - startBPM) / beats;
 
-    for (let beat = 0; beat < beats + 1; beat += 1) {
-      const instantBPM = startBPM + (delta / beats) * beat;
-      const offset = (60 / instantBPM) * beat;
-      if (beat == beats) {
-        // the extra beat in the loop is to set the startTime for the next tempo range
-        startTime += offset;
-      } else {
-        playClick(startTime + offset);
+    const startInterval = 60.0 / startBPM;
+    const endInterval = 60.0 / endBPM;
+    const delta = (endInterval - startInterval) / beats;
+    //console.log("startInterval", startInterval, "endInterval", endInterval, "delta", delta);
+
+    playClick(clickTime);
+    for (let beat = 0; beat < beats; beat += 1) {
+      const nextInterval = startInterval + (delta * beat);
+      clickTime = clickTime + nextInterval;
+      totalBeats += 1;
+      //console.log("beat", totalBeats, "clickTime", clickTime);
+      if (beat < beats - 1) {
+        playClick(clickTime);
       }
     }
   });
 
   // Reset everything (stop()) after the last click if the runNumber hasn't changed
   // If the runNumber has changed, it means the user has stopped and started whilst this timeout was running
-  setTimeout(function () { if (runNumber == thisRunNumber) stop(); }, startTime * 1000 + 100);
+  setTimeout(function () { if (runNumber == thisRunNumber) stop(); }, clickTime * 1000 + 200);
 }
 
 function stop() {
