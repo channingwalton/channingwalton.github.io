@@ -1,0 +1,10 @@
+Scales
+
+Beats per bar
+4
+
+Speed up from 60 to 120
+and then slow down again.
+
+2 60-120
+2 120-60

@@ -55,10 +55,11 @@ function start() {
 
   tempoRanges.forEach(({ bars, startBPM, endBPM }) => {
     const beats = bars * beatsPerBar;
-    for (let beat = 0; beat < beats + 1; beat += 1) {
-      // linear changes of tempo
-      const offset = (60 / (startBPM + ((endBPM - startBPM) / beats) * beat)) * beat;
+    const delta = (endBPM - startBPM) / beats;
 
+    for (let beat = 0; beat < beats + 1; beat += 1) {
+      const instantBPM = startBPM + (delta / beats) * beat;
+      const offset = (60 / instantBPM) * beat;
       if (beat == beats) {
         // the extra beat in the loop is to set the startTime for the next tempo range
         startTime += offset;
