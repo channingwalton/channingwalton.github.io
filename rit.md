@@ -6,9 +6,9 @@ layout: single
 
 This is an experimental metronome that can change tempo.
 
-You can use it to practice changing tempo in that particularly difficult piece of music you're learning. For example, you can practice changing from 90 bpm to 60 bpm over a couple of bars, and back again.
+You can use it to practice changing tempo in that particularly difficult piece of music you're learning. For example, you can practice changing from 90 bpm to 60 bpm over a couple of bars, and back to tempo again.
 
-## Tempo format
+## Format
 
     Any text is ignored so you can write notes.
     
