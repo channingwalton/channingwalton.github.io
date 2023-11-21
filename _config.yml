@@ -67,12 +67,11 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Blogs and other musings"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://channingwalton.github.io"
-    - label: "Twitter"
+    - label: "X"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/channingwalton"
+    - label: "Bluesky"
+      url: "https://bsky.app/profile/channingwalton.bsky.social"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://types.pl/@channingwalton"
@@ -88,9 +87,11 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
+    - label: "X"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/channingwalton"
+    - label: "Bluesky"
+      url: "https://bsky.app/profile/channingwalton.bsky.social"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/channingwalton"
