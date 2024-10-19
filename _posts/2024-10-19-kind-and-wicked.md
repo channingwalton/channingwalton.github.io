@@ -25,7 +25,7 @@ The trick, the art, is to turn those wicked problems into a stream of coherent, 
 
 To my mind, this is a central difference between (computer) science and (software) engineering - an argument for another day.
 
-In many projects I've worked on, when I finally sit down to write code there is a sense of relief that finally I can do something concrete that has a clear direction and outcome. But that only happens when the analysis and planning has been done well, when all the wicked problems have been tamed and a set of kind problems has been left. If developers sit down to code without that sense of clarity, they should stop and reconsider what they're about to do.
+In many projects I've worked on, when I finally sit down to write code there is a sense of relief that finally I can do something concrete that has a clear direction and outcome. But that only happens when sufficient analysis and planning has been done well, when all the wicked problems have been tamed and a set of kind problems has been left. If developers sit down to code without that sense of clarity, they should stop and reconsider what they're about to do.
 
 Bringing this back to learning, the problem with these wicked problems is that they are wicked learning environments too. After years of working in software it often feels as though you have learned a huge amount and nothing at all, or at least nothing that can be distilled and taught succinctly. It is easy to confuse the depth of learning achieved on the kind side of programming with having any depth of understanding of the wicked side.
 
