@@ -11,7 +11,9 @@ tags:
   - learning
 ---
 
-The psychologist Robin Hogarth introduced the concept of "kind" and "wicked" learning environments to explain why experience doesn't always lead to improved performance. Kind learning environments are those where the rules are clear and feedback is immediate and accurate, such as board games. Wicked learning environments are the opposite with unclear rules, delayed or uncertain feedback, and is common in real-world, complex systems involving human beings. A kind environment doesn't mean an easy environment, just that the means of establishing progress and measuring mastery are clear.
+The psychologist Robin Hogarth introduced the concept of "kind" and "wicked" learning environments to explain why experience doesn't always lead to improved performance.
+
+Kind learning environments are those where the rules are clear and feedback is immediate and accurate, such as board games. Wicked learning environments are the opposite with unclear rules, delayed or uncertain feedback, and is common in real-world, complex systems involving human beings. A kind environment doesn't mean an easy environment, just that the means of establishing progress and measuring mastery are clear.
 
 Computer Science is a kind environment: the syntax of programming languages is well-defined, errors are immediately highlighted by compilers or interpreters, and feedback is clear and precise. Many algorithms such as sorting or searching are also kind problems with clear objectives and outcomes. Computer scientists can verify the correctness of algorithms mathematically, or through test cases, receiving straightforward feedback that guides learning and improvement.
 
