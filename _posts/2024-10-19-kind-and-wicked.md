@@ -46,7 +46,7 @@ But I can say the following:
   - confusion
   - experienced people shifting uncomfortably in their seats and warning of dragons
   - developers bringing up lots of issues
-    - when all is said and done, the place where ideas become reality is in the building of a thing, only then do problems materialise
+    - when all is said and done, the place where ideas become reality is in the building of a thing where problems materialise
     - dismiss or diminish these issues as *technical concerns* at your peril
 - look out for teams and people that seem to consistently deliver and learn from them, I call them <a href="/posts/2015-09-15/what#silent-running">silent runners</a>
   - they're the ones drowning in a sea of green at the bottom of your RAG reports
