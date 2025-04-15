@@ -51,12 +51,12 @@ end
 
 The most fundamental step to satisfy the axioms is simply to *extract*. The parts of methods,
 functions, procedures, expressions, and so on, should be extracted out until those functions
-are [tiny](https://twitter.com/deusaquilus/status/1394011278843199491?s=20) – one
+are tiny – one
 expression or one control structure in a function or method.
 
 Larger scale structures such as classes, packages, or modules, are not of concern yet, all
 that matters is the work of pulling the code apart at the lowest level until everything is
-laid out before you, like pieces of lego.
+laid out before you, like pieces of Lego.
 
 ## Composition
 
