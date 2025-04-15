@@ -17,7 +17,7 @@ title: Channing Walton
 email: channing.walton@underscore.io
 description: >- # this means to ignore newlines until "baseurl:"
    Blogs and other musings
-twitter_username: channingwalton
+bluesky_username: '@channingwalton.bsky.social'
 github_username: channingwalton
 minimal_mistakes_skin: "dark"
 search: true
@@ -67,9 +67,6 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Blogs and other musings"
   links:
-    - label: "X"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/channingwalton"
     - label: "Bluesky"
       url: "https://bsky.app/profile/channingwalton.bsky.social"
     - label: "Mastodon"
@@ -87,9 +84,6 @@ author:
 
 footer:
   links:
-    - label: "X"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/channingwalton"
     - label: "Bluesky"
       url: "https://bsky.app/profile/channingwalton.bsky.social"
     - label: "GitHub"
