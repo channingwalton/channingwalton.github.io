@@ -6,12 +6,12 @@ permalink: /posts/2025-08-04/embracing-imposter-syndrome
 categories:
   - programming
   - learning
+  - psychology
 tags:
   - programming
   - learning
+  - psychology
 ---
-
-# Embracing Imposter Syndrome is a Superpower
 
 I spent most of the early part of my career feeling like I didn't quite belong, standing in meetings wondering if everyone else can see that I'm just making it up as I go along. Staring at code I wrote yesterday thinking "Is this good enough?"
 
