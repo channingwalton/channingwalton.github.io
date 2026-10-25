@@ -9,6 +9,7 @@ categories:
 tags:
   - programming
   - learning
+  - kind-and-wicked
 ---
 
 The psychologist Robin Hogarth introduced the concept of "kind" and "wicked" learning environments to explain why experience doesn't always lead to improved performance.
@@ -50,4 +51,6 @@ When all is said and done, the place where ideas become reality is in the buildi
 Look out for teams and people that seem to consistently deliver and learn from them, I call them <a href="/posts/2015-09-15/what#silent-running">silent runners</a>. They're the ones drowning in a sea of green at the bottom of your RAG reports, and people often say, "Oh, their problems are simple" … really?
 
 Finally, the real question we need to ask ourselves as an industry is how can we learn from the wicked environment we find ourselves in, and teach what we can to the next generation of engineers?
+
+*See also: [Why AI always needs a human in the loop]({% post_url 2026-01-30-ai-human-in-the-loop %}).*
 

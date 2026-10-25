@@ -10,6 +10,8 @@ tags:
   - quality
 ---
 
+*This post is part of a series on software quality: [Overview]({% post_url 2009-05-09-software-quality-overview %}), [Pragmatics]({% post_url 2009-05-10-software-quality-pragmatics %}) and Syntactics.*
+
 > “If you have built castles in the air, your work need not be lost; that is where they should be. Now put foundations under them”. Henry David Thoreau
 
 This third article about Software quality is concerned with _syntactics_, by which I mean the syntax of collaborating components and systems, and the people that use them.

@@ -12,6 +12,8 @@ tags:
   - typeclass
 ---
 
+*This post is part of a series of small examples in Scala: the type class pattern, [phantom types]({% post_url 2012-06-16-phantom %}), [Kleisli arrows]({% post_url 2012-07-02-kleisli %}), [another type class example]({% post_url 2012-07-09-another-typeclass %}) and [the Reader and Writer monads]({% post_url 2014-07-27-reader-writer-monad %}).*
+
 Typeclasses are most famously a [language feature](http://learnyouahaskell.com/types-and-typeclasses#typeclasses-101) of Haskell that has gained interest in the Scala community. Here I describe the basic pattern with references for further study.
 
 ## What is a type class and why do I need it?

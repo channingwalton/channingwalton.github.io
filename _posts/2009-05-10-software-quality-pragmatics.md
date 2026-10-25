@@ -10,11 +10,13 @@ tags:
   - quality
 ---
 
+*This post is part of a series on software quality: [Overview]({% post_url 2009-05-09-software-quality-overview %}), Pragmatics and [Syntactics]({% post_url 2009-05-11-software-quality-syntactics %}).*
+
 This article continues my series on Software Quality, discussing Vignelli's _pragmatics_.
 
 My idea is that we judge quality using the same inbuilt sense of aesthetics as we would a work of art or an everyday object, albeit at quite a high level of abstraction.
 
-The design industry has a lot to say about this kind of thing and no one more so than [[@Massimo Vignelli]], who summarised his core ideas in the <a href="/assets/pdfs/Vignelli-Canon.pdf">Vignelli Canon</a>.
+The design industry has a lot to say about this kind of thing and no one more so than Massimo Vignelli, who summarised his core ideas in the <a href="/assets/pdfs/Vignelli-Canon.pdf">Vignelli Canon</a>.
 
 > Whatever we do, if not understood, fails to communicate and is wasted effort. – Vignelli
 

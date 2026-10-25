@@ -16,6 +16,8 @@ Most of the current AI tooling – LLMs, code assistants, copilots, "agents" –
 
 David Epstein in his book Range, describes Kind and Wicked domains, his core claim being that in wicked domains, people with broad, cross-domain experience develop meta-skills that make them better at solving novel, messy problems than narrow specialists who typically focus on kind domains with very clear rules or constraints, like chess.
 
+[Kind and Wicked]({% post_url 2024-10-19-kind-and-wicked %}).
+
 ## Kind environments: where AI shines
 
 It's tempting to describe LLMs as "generalists" because they can talk about pretty much anything, in any tone, with believable fluency. But under the hood, they're closer to hyper-specialised chess prodigies. They are optimised to continue patterns that have been richly reinforced in training, not to reason from first principles in unfamiliar terrain.
@@ -88,7 +90,7 @@ They treat AI as if it possessed judgement in the wicked domain ("What's our str
 
 This is the Dunning–Kruger effect with a GPU budget: the system with the least understanding expresses the most confidence, and everyone else is subtly nudged to defer to it.
 
-[AI is a Dunning-Kruger Amplifier](/posts/20250-10-26/ai-dunning-kruger).
+[AI is a Dunning-Kruger Amplifier]({% post_url 2025-10-26-ai-dunning-kruger %}).
 
 Generalist humans have seen enough domains to recognise when the problem itself is wrong, when a metric is misaligned, when a "best practice" is cargo cult, when an analogy doesn't really hold. They know when not to trust the pattern.
 
