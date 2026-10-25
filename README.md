@@ -1,7 +1,7 @@
 # channingwalton.github.io
 
 - Update the site with `bundle update`
-- Run the site `run.sh`
+- Run the site with `mise run serve`
 
 ## GA4 tracking details
 

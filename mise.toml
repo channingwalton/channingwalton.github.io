@@ -5,6 +5,10 @@ ruby = "3.4.8"
 description = "Build the site into _site"
 run = "bundle exec jekyll build"
 
+[tasks.serve]
+description = "Serve the site locally and rebuild on changes"
+run = "bundle exec jekyll server --incremental"
+
 [tasks.check]
 description = "Check that the site builds"
 depends = ["compile"]
