@@ -43,7 +43,7 @@ def unary_~()
 
 ## What does `~` do to options?
 
-In [Scalaz](http://code.google.com/p/scalaz/) it is a method that returns the value contained in an Option, or a default `Zero` for the Option's type. For example, `~Some(1)` returns 1, `~None` (for an Option[Int]) will return 0.
+In [Scalaz](https://github.com/scalaz/scalaz) it is a method that returns the value contained in an Option, or a default `Zero` for the Option's type. For example, `~Some(1)` returns 1, `~None` (for an Option[Int]) will return 0.
 
 But how does our unary method find an appropriate Zero instance?
 

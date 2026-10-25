@@ -20,7 +20,7 @@ Syntactic components form the foundation of a software system and comprises many
 
 For any system, whether it is a graphic design, a town or a complex software system, to sit well in the mind of the beholder, its components and their relationships to each other must be congruent. Nothing ever stands in isolation; everything is part of a greater system. It is just as jarring to the mind when software systems are syntactically inconsistent as it would be to hear the Westminster Boys Choir perform _Highway to Hell_.
 
-Why does all this matter? For a graphic design or a town layout it matters a great deal that the component parts sit well together for aesthetic reasons or so that people can [live comfortably](http://www.amazon.co.uk/Timeless-Building-Center-Environmental-Structure/dp/0195024028/) together and thrive. I don’t think it is necessary to argue that point further. But what of software? Well of course it matters just as much!
+Why does all this matter? For a graphic design or a town layout it matters a great deal that the component parts sit well together for aesthetic reasons or so that people can [live comfortably](https://www.amazon.co.uk/Timeless-Building-Center-Environmental-Structure/dp/0195024028/) together and thrive. I don’t think it is necessary to argue that point further. But what of software? Well of course it matters just as much!
 
 ## Software Developers
 
@@ -34,7 +34,7 @@ This idea is not a flight of fancy, it has real business benefit. If developers 
 
 The level at which systems collaborate is a rich source of confusion, bugs and general unhappiness. It is extremely common to find inconsistent syntax between systems which developers need to cope with on a daily basis even when the syntactic elements of each system are locally consistent. The cost of the extra work required to support these inconsistencies should not be underestimated. I would estimate that in banking systems it can be as much as a half of the total development effort and where most bugs lie.
 
-The resulting confusion can be disastrous as the [Mars Climate Orbiter proves](http://en.wikipedia.org/wiki/Mars_Climate_Orbiter). It was destroyed when it reached the wrong height as a result of two collaborating systems using different units of measurement.
+The resulting confusion can be disastrous as the [Mars Climate Orbiter proves](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter). It was destroyed when it reached the wrong height as a result of two collaborating systems using different units of measurement.
 
 ## People
 

@@ -18,7 +18,7 @@ This is an example of using the Reader and Writer monads to solve a problem whic
 
 Before getting to the problem, what are the Reader and Writer monads?
 
-A Reader, sometimes called the environment monad, treats functions as values in a context (see [LYAH](http://learnyouahaskell.com/for-a-few-monads-more)). Loosely speaking, it allows you to build a computation that is a function of some context (configuration, session, database connection, etc.), rather than passing the context as an argument to the function.
+A Reader, sometimes called the environment monad, treats functions as values in a context (see [LYAH](https://learnyouahaskell.github.io/for-a-few-monads-more.html)). Loosely speaking, it allows you to build a computation that is a function of some context (configuration, session, database connection, etc.), rather than passing the context as an argument to the function.
 
 A Writer is a monad that attaches a log or some other accumulated data to a value.
 
@@ -160,7 +160,7 @@ code.
 
 We will solve the post commits issue using a Writer that accumulates post commits - functions run when the transaction succeeds. But,
 to avoid wrapping the Reader in a Writer, and getting nested for-comprehensions as a result,
-a [monad transformer](http://underscore.io/blog/posts/2013/12/20/scalaz-monad-transformers.html) will be used to combine the Reader with the Writer. Fortunately,
+a [monad transformer](https://underscore.io/blog/posts/2013/12/20/scalaz-monad-transformers.html) will be used to combine the Reader with the Writer. Fortunately,
 scalaz provides a ReaderWriterState monad which will suffice if we ignore the State, setting it to Unit.
 
 Errors will be handled by scalaz's answer to scala's Either, `\/[Throwable, A],` with the left being an exception and the right being the result.

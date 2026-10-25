@@ -86,7 +86,7 @@ Surprising ideas can emerge as relationships between notes emerge.
 
 **Tool Support:** It is necessary to use something like a Wiki or Obisidian to facilitate discovery and navigation. If the notes are in a shared repository then anyone can check them out and use Obisidian to work with the Notes as all it needs is a folder of markdown documents.
 
-**The forest is where you think:** Having a searchable, interconnected system of notes forms a second brain and a place to help you think and discover new information or ideas, a critical result of Luhman's Zettelkasten and the reason he gave for his enormous productivity (70 books, 400 articles). With the complexity of software it would be fascinating to see what emerges. (See [Luhman on thinking with slip boxes](http://luhmann.surge.sh/communicating-with-slip-boxes).)
+**The forest is where you think:** Having a searchable, interconnected system of notes forms a second brain and a place to help you think and discover new information or ideas, a critical result of Luhman's Zettelkasten and the reason he gave for his enormous productivity (70 books, 400 articles). With the complexity of software it would be fascinating to see what emerges. (See [Luhman on thinking with slip boxes](https://luhmann.surge.sh/communicating-with-slip-boxes).)
 
 **Its all about the maps:** MOCs are where notes are brought together to form a narrative for a particular audience, drawing on external documents if necessary, but try to keep information in the notes. The MOCs themselves are just notes and can easily be linked to from another MOC or note.
 
@@ -131,7 +131,7 @@ Using a system like this for software would be an interesting experiment, I don'
 - [Evergreen Notes](https://notes.andymatuschak.org/Evergreen_notes)
 - [Linking Your Thinking](https://publish.obsidian.md/lyt-kit/_Start+Here)
 - [Zettelkasten Overview](https://zettelkasten.de/posts/overview/)
-- [Luhman on thinking with slip boxes](http://luhmann.surge.sh/communicating-with-slip-boxes)
+- [Luhman on thinking with slip boxes](https://luhmann.surge.sh/communicating-with-slip-boxes)
 - Sönke Ahrens's [How to take Smart Notes](https://smile.amazon.co.uk/How-Take-Smart-Notes-Nonfiction/dp/1542866502/) and his [video](https://www.youtube.com/watch?v=nPOI4f7yCag)
 - [Creating the Brainforest](https://www.youtube.com/watch?v=dddIzjZ_WUo)
 

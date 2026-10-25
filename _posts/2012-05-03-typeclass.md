@@ -12,7 +12,7 @@ tags:
   - typeclass
 ---
 
-Typeclasses are most famously a [language feature](http://learnyouahaskell.com/types-and-typeclasses#typeclasses-101) of Haskell that has gained interest in the Scala community. Here I describe the basic pattern with references for further study.
+Typeclasses are most famously a [language feature](https://learnyouahaskell.github.io/types-and-typeclasses.html#typeclasses-101) of Haskell that has gained interest in the Scala community. Here I describe the basic pattern with references for further study.
 
 ## What is a type class and why do I need it?
 
@@ -134,9 +134,9 @@ So we defined a typeclass which has been extended with new instances. If the tra
 ## Further Study
 
 1. [Type Classes as Objects and Implicits](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.176.5300&rep=rep1&type=pdf); Bruno C. d. S. Oliveira, Adriaan Moors, Martin Odersky
-2. [How to make ad-hoc polymorphism less ad-hoc"; Philip Wadler, Stephen Bolt, (POPL '89)](http://homepages.inf.ed.ac.uk/wadler/papers/class/class.ps)
-3. [Implicit resolution order](http://stackoverflow.com/a/5598107/434405/)
-4. [Tutorial: Typeclass with Dan Rosen](http://www.youtube.com/watch?v=sVMES4RZF-8)
-5. [Scala/Haskell: A simple example of type classes by Mark Needham](http://www.markhneedham.com/blog/2012/05/22/scalahaskell-a-simple-example-of-type-classes/)
+2. [How to make ad-hoc polymorphism less ad-hoc"; Philip Wadler, Stephen Bolt, (POPL '89)](https://homepages.inf.ed.ac.uk/wadler/papers/class/class.ps)
+3. [Implicit resolution order](https://stackoverflow.com/a/5598107/434405/)
+4. [Tutorial: Typeclass with Dan Rosen](https://www.youtube.com/watch?v=sVMES4RZF-8)
+5. [Scala/Haskell: A simple example of type classes by Mark Needham](https://www.markhneedham.com/blog/2012/05/22/scalahaskell-a-simple-example-of-type-classes/)
 
 *This post is part of a series of small examples in Scala: the type class pattern, [phantom types]({% post_url 2012-06-16-phantom %}), [Kleisli arrows]({% post_url 2012-07-02-kleisli %}), [another type class example]({% post_url 2012-07-09-another-typeclass %}) and [the Reader and Writer monads]({% post_url 2014-07-27-reader-writer-monad %}).*
