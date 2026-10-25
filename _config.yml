@@ -19,12 +19,23 @@ description: >- # this means to ignore newlines until "baseurl:"
   Blogs and other musings
 bluesky_username: "@channingwalton.bsky.social"
 github_username: channingwalton
+repository: "channingwalton/channingwalton.github.io"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+# Comments are stored in the repository's GitHub Discussions
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: "MDEwOlJlcG9zaXRvcnkzNDA0MjE3OTE="
+    category_name: "Announcements"
+    category_id: "DIC_kwDOFEpsn84DJmwT"
+    strict: 1
+    lazy: true
 
 # Analytics
 analytics:
