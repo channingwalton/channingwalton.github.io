@@ -324,6 +324,7 @@ DEPENDENCIES
   jekyll-gist
   jekyll-include-cache
   jekyll-paginate
+  jekyll-redirect-from
   jekyll-sitemap
   jemoji
   ostruct

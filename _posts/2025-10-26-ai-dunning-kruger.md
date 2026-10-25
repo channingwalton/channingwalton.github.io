@@ -1,8 +1,10 @@
 ---
 title: "AI is a Dunning–Kruger Amplifier"
 description: "AI doesn't just reflect Dunning–Kruger; it amplifies it"
-date: 2025-08-04 00:00:00 +0000
-permalink: /posts/20250-10-26/ai-dunning-kruger
+date: 2025-10-26 00:00:00 +0000
+permalink: /posts/2025-10-26/ai-dunning-kruger
+redirect_from:
+  - /posts/20250-10-26/ai-dunning-kruger
 categories:
   - AI
   - programming

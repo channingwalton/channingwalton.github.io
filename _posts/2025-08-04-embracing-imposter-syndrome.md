@@ -1,6 +1,6 @@
 ---
 title: "Embracing Imposter Syndrome is a Superpower"
-description: "Dealing with kind and wicked learning environments in software"
+description: "Imposter syndrome is not a problem to solve. Embracing it makes you a better developer, teammate and mentor."
 date: 2025-08-04 00:00:00 +0000
 permalink: /posts/2025-08-04/embracing-imposter-syndrome
 categories:

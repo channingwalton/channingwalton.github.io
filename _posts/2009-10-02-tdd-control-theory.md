@@ -1,8 +1,10 @@
 ---
 title: "TDD from a Control Theory POV"
-date: 2009-05-11 00:00:00 +0000
-permalink: /posts/2009-05-11/tdd
-description: ""
+date: 2009-10-02 00:00:00 +0000
+permalink: /posts/2009-10-02/tdd
+redirect_from:
+  - /posts/2009-05-11/tdd
+description: "Long feedback loops make any system unstable. TDD is a fast feedback loop that keeps software development stable."
 categories: 
   - agile
 tags:

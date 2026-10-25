@@ -4,12 +4,12 @@ description: "AI tools excel in kind domains with clear rules and fast feedback,
 date: 2026-01-30 00:00:00 +0000
 permalink: /posts/2026-01-30/ai-human-in-the-loop
 categories:
-  - Software
+  - software
   - AI
 tags:
   - AI
-  - Kind-and-Wicked
-  - Software-Engineering
+  - kind-and-wicked
+  - software-engineering
 ---
 
 Most of the current AI tooling – LLMs, code assistants, copilots, "agents" – are astonishing at pattern-rich, feedback-dense work, but surprisingly naive everywhere else. They look like polymath geniuses when you give them well-posed, tightly constrained tasks with a clear success criterion. But put them into a real product strategy, ambiguous business requirements, socio-technical systems – and their confidence massively exceeds their competence.
