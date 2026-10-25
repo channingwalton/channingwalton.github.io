@@ -39,14 +39,7 @@ comments:
     strict: 1
     lazy: true
 
-# Analytics
-analytics:
-  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id:
-      "G-MWNHFJ9F4H"
-
-      # Outputting
+# Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
