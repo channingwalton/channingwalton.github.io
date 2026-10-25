@@ -16,12 +16,6 @@ GEM
       uri (>= 0.13.1)
     addressable (2.9.0)
       public_suffix (>= 2.0.2, < 8.0)
-    algolia_html_extractor (2.6.4)
-      json (~> 2.0)
-      nokogiri (~> 1.10)
-    algoliasearch (1.27.5)
-      httpclient (~> 2.8, >= 2.8.3)
-      json (>= 1.5.1)
     base64 (0.3.0)
     bigdecimal (4.1.3)
     coffee-script (2.4.1)
@@ -57,7 +51,6 @@ GEM
       faraday (~> 2.0)
     ffi (1.17.4-arm64-darwin)
     ffi (1.17.4-x86_64-darwin)
-    filesize (0.2.0)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     github-pages (232)
@@ -116,8 +109,6 @@ GEM
       activesupport (>= 2)
       nokogiri (>= 1.4)
     http_parser.rb (0.8.1)
-    httpclient (2.9.0)
-      mutex_m
     i18n (1.15.2)
       concurrent-ruby (~> 1.0)
     jekyll (3.10.0)
@@ -135,15 +126,6 @@ GEM
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
       webrick (>= 1.0)
-    jekyll-algolia (1.7.1)
-      algolia_html_extractor (~> 2.6)
-      algoliasearch (~> 1.26)
-      filesize (~> 0.1)
-      jekyll (>= 3.6, < 5.0)
-      json (~> 2.0)
-      nokogiri (~> 1.6)
-      progressbar (~> 1.9)
-      verbal_expressions (~> 0.1.5)
     jekyll-avatar (0.8.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-coffeescript (1.2.2)
@@ -258,7 +240,6 @@ GEM
     minitest (6.0.6)
       drb (~> 2.0)
       prism (~> 1.5)
-    mutex_m (0.3.0)
     net-http (0.10.0)
       net-protocol (>= 0.3.0)
       uri (>= 0.11.1)
@@ -271,11 +252,9 @@ GEM
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
-    ostruct (0.6.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     prism (1.9.0)
-    progressbar (1.13.0)
     public_suffix (5.1.1)
     racc (1.8.1)
     rb-fsevent (0.11.2)
@@ -306,7 +285,6 @@ GEM
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
     uri (1.1.2)
-    verbal_expressions (0.1.5)
     webrick (1.9.2)
 
 PLATFORMS
@@ -319,7 +297,6 @@ PLATFORMS
 DEPENDENCIES
   faraday-retry
   github-pages
-  jekyll-algolia
   jekyll-feed
   jekyll-gist
   jekyll-include-cache
@@ -327,7 +304,6 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-sitemap
   jemoji
-  ostruct
   tzinfo-data
 
 BUNDLED WITH
