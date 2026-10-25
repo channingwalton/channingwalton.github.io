@@ -1,0 +1,10 @@
+[tools]
+ruby = "3.4.8"
+
+[tasks.compile]
+description = "Build the site into _site"
+run = "bundle exec jekyll build"
+
+[tasks.check]
+description = "Check that the site builds"
+depends = ["compile"]
