@@ -12,8 +12,6 @@ tags:
   - typeclass
 ---
 
-*This post is part of a series of small examples in Scala: [the type class pattern]({% post_url 2012-05-03-typeclass %}), [phantom types]({% post_url 2012-06-16-phantom %}), [Kleisli arrows]({% post_url 2012-07-02-kleisli %}), another type class example and [the Reader and Writer monads]({% post_url 2014-07-27-reader-writer-monad %}).*
-
 I recently came across another elegant use of the type class pattern, so I thought I'd share it with here.
 
 Developers at a client recently asked about the following code:
@@ -132,3 +130,4 @@ If you want to learn more about this kind of thing have a look at the other blog
 
 If you would like a course on Scala, look no further than [Underscore](https://underscore.io).
 
+*This post is part of a series of small examples in Scala: [the type class pattern]({% post_url 2012-05-03-typeclass %}), [phantom types]({% post_url 2012-06-16-phantom %}), [Kleisli arrows]({% post_url 2012-07-02-kleisli %}), another type class example and [the Reader and Writer monads]({% post_url 2014-07-27-reader-writer-monad %}).*

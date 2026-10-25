@@ -10,8 +10,6 @@ tags:
   - quality
 ---
 
-*This post is part of a series on software quality: [Overview]({% post_url 2009-05-09-software-quality-overview %}), [Pragmatics]({% post_url 2009-05-10-software-quality-pragmatics %}) and Syntactics.*
-
 > “If you have built castles in the air, your work need not be lost; that is where they should be. Now put foundations under them”. Henry David Thoreau
 
 This third article about Software quality is concerned with _syntactics_, by which I mean the syntax of collaborating components and systems, and the people that use them.
@@ -49,3 +47,5 @@ The resulting confusion, unnecessary work and mistakes when those systems are sy
 It is ultimately the job of the CTO to ensure that systems built in-house are seen as components in a complex system that are syntactically consistent, amongst many other things that I will cover in this series of articles.
 
 But everyone involved in building software systems must ensure that this kind of inconsistency is not allowed to happen. Users should not accept inconsistent or badly behaved systems, management should not allow it, and developers should not build them.
+
+*This post is part of a series on software quality: [Overview]({% post_url 2009-05-09-software-quality-overview %}), [Pragmatics]({% post_url 2009-05-10-software-quality-pragmatics %}) and Syntactics.*

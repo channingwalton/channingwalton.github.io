@@ -10,8 +10,6 @@ tags:
   - quality
 ---
 
-*This post is part of a series on software quality: [Overview]({% post_url 2009-05-09-software-quality-overview %}), Pragmatics and [Syntactics]({% post_url 2009-05-11-software-quality-syntactics %}).*
-
 This article continues my series on Software Quality, discussing Vignelli's _pragmatics_.
 
 My idea is that we judge quality using the same inbuilt sense of aesthetics as we would a work of art or an everyday object, albeit at quite a high level of abstraction.
@@ -39,3 +37,5 @@ Vignelli sums it beautifully:
 • We feel the moral imperative of designing things that will last for a long time
 
 This is pragmatism in any field, and no more so than in software.
+
+*This post is part of a series on software quality: [Overview]({% post_url 2009-05-09-software-quality-overview %}), Pragmatics and [Syntactics]({% post_url 2009-05-11-software-quality-syntactics %}).*

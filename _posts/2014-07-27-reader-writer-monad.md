@@ -14,8 +14,6 @@ tags:
   - writer
 ---
 
-*This post is part of a series of small examples in Scala: [the type class pattern]({% post_url 2012-05-03-typeclass %}), [phantom types]({% post_url 2012-06-16-phantom %}), [Kleisli arrows]({% post_url 2012-07-02-kleisli %}), [another type class example]({% post_url 2012-07-09-another-typeclass %}) and the Reader and Writer monads.*
-
 This is an example of using the Reader and Writer monads to solve a problem which cropped up on a project I am working on.
 
 Before getting to the problem, what are the Reader and Writer monads?
@@ -254,3 +252,4 @@ object ReaderWriterForPostCommits {
 Now its impossible to run code outside a transaction, post commits are easily added, errors are returned nicely and not thrown.
 Furthermore, operations are easy to test since they return values which can be checked easily, rather than side-effects which must be captured.
 
+*This post is part of a series of small examples in Scala: [the type class pattern]({% post_url 2012-05-03-typeclass %}), [phantom types]({% post_url 2012-06-16-phantom %}), [Kleisli arrows]({% post_url 2012-07-02-kleisli %}), [another type class example]({% post_url 2012-07-09-another-typeclass %}) and the Reader and Writer monads.*
