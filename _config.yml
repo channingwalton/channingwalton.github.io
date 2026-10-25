@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Channing Walton
+url: "https://channingwalton.github.io"
 email: channingwalton@mac.com
 description: >- # this means to ignore newlines until "baseurl:"
   Essays on software design, functional programming, agile teams, AI, learning and music.

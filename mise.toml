@@ -10,5 +10,6 @@ description = "Serve the site locally and rebuild on changes"
 run = "bundle exec jekyll server --incremental"
 
 [tasks.check]
-description = "Check that the site builds"
+description = "Check that the site builds and that its internal links work"
 depends = ["compile"]
+run = "bundle exec htmlproofer _site --root-dir _site --disable-external --no-enforce-https"
