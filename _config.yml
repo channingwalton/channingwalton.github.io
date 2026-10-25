@@ -22,6 +22,8 @@ github_username: channingwalton
 repository: "channingwalton/channingwalton.github.io"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
+og_image: "/assets/images/site-card.png"
+og_image_alt: "Channing Walton"
 
 # Build settings
 markdown: kramdown
