@@ -8,6 +8,8 @@ title: "About"
 Channing has four decades of software architecture, design and development experience in financial markets, investment banking, internet technologies, media, and academic research.
 He specialises in agile methods and functional programming.
 
+Channing works at [TXP](https://www.txp.co.uk/), a UK technology consultancy, in TXPLabs, its research, product and capability development division.
+
 After obtaining a degree in Electronics at the University of Kent at Canterbury in 1989, Channing did a masters and PhD in high-speed optical communications, also at Kent.
 He then moved to London and worked on electronics and optics for detectors at the Atmospheric Physics Lab at University College London, and after a couple of years
 continued research in high-speed optical communications.
@@ -17,4 +19,8 @@ Having always had an interest in software since a teenager, Channing started wor
 Later, after a few years in the OOP wilderness, Channing switched to Scala in 2008 and helped its adoption in several banks in London.
 
 He has also given talks at Skills Matter, ScalaDays, Brunel University and a number of banks about Scala.
+
+## Contact
+
+To contact Channing, send him a message on [LinkedIn](https://www.linkedin.com/in/channingwalton/).
 
