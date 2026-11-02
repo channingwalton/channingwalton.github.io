@@ -39,7 +39,7 @@ The obvious objection is that the test is rigged. An agent can explain why the c
 
 Because the agent's explanations come from the text. Each session, it rebuilds its account of the system from the code, the documentation and whatever memory files it has been given. That is exactly the revival from text that Naur says cannot recover the theory. Where the code departs from what was intended, the agent's rationale will be fluent and wrong, and nothing in the text will show it. The question is not whether someone can produce an explanation. It is whether anyone can tell if an explanation is right, and only someone who holds the theory can. Excluding the agent is the point of the test: it asks whether the theory exists anywhere outside the text.
 
-Two further properties separate holding a theory from producing explanations. The first is continuity. Naur's theory is held over time by the same people. A model has no continuity between sessions. Context windows and memory files are documentation, and Naur's argument about documentation applies to them unchanged. The second is answerability. Holding a theory means being committed to it. Someone who holds the theory will refuse or reshape a request that conflicts with it: "no, we can't just add a column". A model will argue as readily for a design as against it, and comply.
+Two further properties separate holding a theory from producing explanations. The first is continuity. Naur's theory is held over time by people, and a new programmer acquires it only by working in close contact with those who already hold it. A model has no continuity between sessions. Context windows and memory files are documentation, and Naur's argument about documentation applies to them unchanged. The second is answerability. Holding a theory means being committed to it. Someone who holds the theory will refuse or reshape a request that conflicts with it: "no, we can't just add a column". A model will argue as readily for a design as against it, and comply.
 
 Underneath all three is missing information. Much of a system's theory was never written down: conversations, judgements, the reasons an option was rejected. Storey calls this intent debt.[^storey] An agent cannot read what was never written. There are layers of theory around the codebase: the organisation, customers, future plans, processes, etc. All of it is missing information.
 
@@ -127,7 +127,7 @@ The mechanisms of learning are among the best-attested results in cognitive psyc
 
 The Supervised agent and Vibe coding modes remove generation and retrieval. The developer reads instead of producing. Pairing puts them back. Predicting what a change will do before seeing it, choosing between alternatives and saying why, and explaining a change back are the kinds of activity this research shows to work.
 
-Controlled studies of learning with AI show the mechanism holding. In a randomised trial of developers learning an unfamiliar Python library, Shen and Tamkin found that the group using AI scored markedly lower on a comprehension test, with no significant gain in speed. Participants who used the AI to ask conceptual questions kept their scores.[^shen] Lehmann and colleagues found that substituting an LLM for learning activities reduced understanding of each topic, while using it to complement learning, for example by asking for explanations, improved understanding.[^lehmann] In a study of novice programmers, Kazemitabaar and colleagues found that access to Codex did not harm the learners' ability to modify code or their retention a week later, though delegating whole tasks in a single prompt trended negative.[^kazem] Outside programming, Bastani and colleagues found that high-school students given unrestricted access to GPT-4 for mathematics practice did worse on later exams, and that a tutor version with guardrails largely removed the harm.[^bastani]
+Controlled studies of learning with AI show the mechanism holding. In a randomised trial of developers learning an unfamiliar Python library, Shen and Tamkin found that the group using AI scored markedly lower on a comprehension test, with no significant gain in speed. Participants who used the AI to ask conceptual questions kept their scores.[^shen] In two preregistered experiments, Lehmann and colleagues found no overall effect of LLMs on learning. In exploratory analyses, substituting an LLM for learning activities reduced understanding of each topic, while using it to complement learning, for example by asking for explanations, improved understanding.[^lehmann] In a study of novice programmers aged 10 to 17, Kazemitabaar and colleagues found that access to Codex did not harm the learners' ability to modify code or their retention a week later, though delegating whole tasks in a single prompt trended negative.[^kazem] Outside programming, Bastani and colleagues found that high-school students given unrestricted access to GPT-4 for mathematics practice did worse on later exams, and that a tutor version with guardrails largely removed the harm.[^bastani]
 
 The pattern is consistent. Substitution harms understanding. Inquiry and complementary use preserve it.
 
@@ -157,9 +157,9 @@ The question is not whether to use AI. It is who must hold the theory of this ch
 
 ## References
 
-[^naur]: Naur, P. (1985). Programming as Theory Building. *Microprocessing and Microprogramming* 15(5), 253–261. <https://pages.cs.wisc.edu/~remzi/Naur.pdf>
+[^naur]: Naur, P. (1985). Programming as Theory Building. *Microprocessing and Microprogramming* 15(5), 253–261. Reprinted in Cockburn, A. *Agile Software Development*, Appendix B. <https://pages.cs.wisc.edu/~remzi/Naur.pdf>
 
-[^storey]: Storey, M.-A. (2026). From Technical Debt to Cognitive and Intent Debt. <https://arxiv.org/abs/2603.22106>
+[^storey]: Storey, M.-A. (2026). From Technical Debt to Cognitive and Intent Debt: Rethinking Software Health in the Age of AI. <https://arxiv.org/abs/2603.22106>
 
 [^skill]: Pair programming skill. <https://github.com/channingwalton/skills/tree/main/skills/pair-programming>
 
@@ -175,8 +175,8 @@ The question is not whether to use AI. It is who must hold the theory of this ch
 
 [^kazem]: Kazemitabaar, M. et al. (2023). Studying the Effect of AI Code Generators on Supporting Novice Learners in Introductory Programming. <https://arxiv.org/abs/2302.07427>. Also Kazemitabaar, M. et al. (2023). How Novices Use LLM-Based Code Generators to Solve CS1 Coding Tasks in a Self-Paced Learning Environment. <https://arxiv.org/abs/2309.14049>
 
-[^bastani]: Bastani, H. et al. Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS*. <https://chibe.upenn.edu/publications/generative-ai-without-guardrails-can-harm-learning-evidence-from-high-school-mathematics>
+[^bastani]: Bastani, H. et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS* 122(26), e2422633122. <https://doi.org/10.1073/pnas.2422633122>
 
 [^borg]: Borg, M. et al. (2025). Echoes of AI: Investigating the Downstream Effects of AI Assistants on Software Maintainability. <https://arxiv.org/abs/2507.00788>
 
-[^metr]: METR (2025). Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. <https://arxiv.org/abs/2507.09089>
+[^metr]: Becker, J., Rush, N., Barnes, E. and Rein, D. (2025). Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. METR. <https://arxiv.org/abs/2507.09089>
