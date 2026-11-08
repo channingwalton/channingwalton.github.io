@@ -58,3 +58,5 @@ TDD helps in a number of other ways:
 In summary, long delays in any system introduces instability.
 The instant feedback obtained by TDD is a stabilising mechanism because the feedback is fast, ensuring that what is written is correct and that you haven’t broken anything else.
 
+*See also: [Risk-Weighted Theory Building in AI-Assisted Software Development]({% post_url 2026-11-08-risk-weighted-theory-building %}).*
+

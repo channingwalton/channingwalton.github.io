@@ -35,4 +35,4 @@ In effect, AI doesn't just reflect Dunning–Kruger; it *amplifies* it. The resu
 
 It is more important than ever to temper the wild promises of AI with the experience of practitioners.
 
-*See also: [Who Holds the Theory]({% post_url 2026-11-02-who-holds-the-theory %}).*
+*See also: [Who Holds the Theory]({% post_url 2026-11-02-who-holds-the-theory %}) and [Risk-Weighted Theory Building in AI-Assisted Software Development]({% post_url 2026-11-08-risk-weighted-theory-building %}).*

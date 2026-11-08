@@ -153,6 +153,8 @@ Recording the mode on each work item does the same for the team as a whole. Drif
 
 The question is not whether to use AI. It is who must hold the theory of this change, and for how long. For a throwaway script, nobody needs the code side, and an agent can write it. For the rule that defines what a customer is, the answer is the team that will be asked to change it next year, and they need to have built that theory themselves. And only someone who already holds that theory can answer the question.
 
+*See also: [Risk-Weighted Theory Building in AI-Assisted Software Development]({% post_url 2026-11-08-risk-weighted-theory-building %}).*
+
 ---
 
 ## References
