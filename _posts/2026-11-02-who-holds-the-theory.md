@@ -83,7 +83,7 @@ Seen through this lens, the ways people use AI in software differ in one importa
 | Supervised agent | Agent, reviewed by a human           | Human, the world side; largely nobody, the code side                      | Theory-neutral work the reviewer already understands |
 | Vibe coding      | Agent                                | Human, the world side; nobody, the code side                              | Code that will never be modified                     |
 
-The modes can also be sequenced. Spike-and-stabilise is Vibe coding followed by Pairing: the AI produces a throwaway prototype, and the human and the AI then write the real thing with the prototype as a reference. The theory is built in the rewrite.
+A spike can come before any of the other modes. In spike-and-re-sort, Vibe coding produces a throwaway prototype, and the work it reveals is sorted again with the prototype as a reference. The theory is built in the work that follows.
 
 ## Choosing a mode is a theory-dependent decision
 
