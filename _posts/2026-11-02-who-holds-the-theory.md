@@ -71,7 +71,7 @@ Seen through this lens, the ways people use AI in software differ in one importa
 
 **Supervised agent.** The agent writes the code and the human reviews the diffs. This is the default the industry is converging on. Reviewing a diff is not the same as building a theory. The reviewer learns what changed without necessarily learning why the system needed it to change that way. In my opinion, this is a terrible place to be.
 
-**Vibe coding.** There is no spec and almost no review. This is legitimate when the code will never be modified: a spike, a throwaway script, a one-off data job. Even then, someone has to hold the world side of the theory: what the program is for, and how to tell whether its output is right. What nobody needs is the code side. A program nobody will change needs no theory of how it works, but it still needs someone who knows what it should do.
+**Vibe coding.** There is no spec and almost no review. This is legitimate when the code will soon be thrown away: a spike, a throwaway script, a one-off data job. Even then, someone has to hold the world side of the theory: what the program is for, and how to tell whether its output is right. What nobody needs is the code side. A program that will soon be thrown away needs no theory of how it works, but it still needs someone who knows what it should do.
 
 | Mode             | Who makes theory-dependent decisions | Where the theory ends up                                                  | Fits when                                            |
 | ---------------- | ------------------------------------ | ------------------------------------------------------------------------- | ---------------------------------------------------- |
@@ -81,7 +81,7 @@ Seen through this lens, the ways people use AI in software differ in one importa
 | Pairing          | Human, in small steps                | Human, built as the work proceeds                                         | Theory-dependent work on long-lived code             |
 | Spec-first       | Human, in the spec; AI, below it     | Author, the world side; nobody, the code side below the spec              | The layer below the spec is theory-neutral           |
 | Supervised agent | Agent, reviewed by a human           | Human, the world side; largely nobody, the code side                      | Theory-neutral work the reviewer already understands |
-| Vibe coding      | Agent                                | Human, the world side; nobody, the code side                              | Code that will never be modified                     |
+| Vibe coding      | Agent                                | Human, the world side; nobody, the code side                              | Code that will soon be thrown away                   |
 
 A spike can come before any of the other modes. In spike-and-re-sort, Vibe coding produces a throwaway prototype, and the work it reveals is sorted again with the prototype as a reference. The theory is built in the work that follows.
 
