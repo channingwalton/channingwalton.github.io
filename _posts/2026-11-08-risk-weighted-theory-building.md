@@ -1,6 +1,6 @@
 ---
 title: "Risk-Weighted Theory Building in AI-Assisted Software Development"
-description: "Sort each piece of work by whether it needs the theory and what a mistake would cost, and let agents go only as fast as the people who hold the theory can absorb."
+description: "Sort each piece of work by whether it needs the theory and what a mistake would cost, and let agents go only as fast as the theory can keep up."
 date: 2026-11-08 00:00:00 +0000
 permalink: /posts/2026-11-08/risk-weighted-theory-building
 excerpt: "The beer game is a supply-chain game from Jay Forrester's system dynamics group at MIT, made famous by Peter Senge in *The Fifth Discipline*. Four players form a chain: a retailer, a wholesaler, a distributor and a brewery. Each sees only their own stock, their backlog and the orders arriving from the player downstream. Orders and deliveries each take weeks to arrive."
@@ -40,7 +40,7 @@ The game is just an illustration showing how quickly a system with several stage
 
 Asking an agent for a change is placing an order. The delivery is the moment users, integration or production show whether the change was right. Agents make orders almost free, so far more change is in transit at once.
 
-Unlike beer, change in transit doesn't look like it's in transit. It passes its tests, gets merged and looks finished by all the usual means of validation. *What hasn't arrived yet is understanding*. A team that steers based on outdated understanding will drive future changes on incomplete understanding many times before understanding arrives, if it ever does. Deming's funnel experiment shows where that leads: reacting to each result with a correction makes the spread worse, not better.[^deming] With agents, a correction costs as little as an order, so each one can be a large change, made on understanding that is drifting further from reality.
+Unlike beer, change in transit doesn't look like it's in transit. It passes its tests, gets merged and looks finished by every usual check. *What hasn't arrived yet is the team's theory of it*, in Peter Naur's sense, which I come to below. A team that steers on an out-of-date theory will make many further changes before its theory catches up, if it ever does. Deming's funnel experiment shows where that leads: reacting to each result with a correction makes the spread worse, not better.[^deming] With agents, a correction costs as little as an order, so each one can be a large change, made on a theory that is drifting further from the system.
 
 A change has two deliveries: knowing that it is right, and the team's theory catching up with it. The first arrives eventually, but there is no guarantee the second ever will.
 
@@ -65,15 +65,15 @@ flowchart TB
   end
 ```
 
-Agents speed up the inner loops enormously. The outer loops are still led by people, and run at the pace people do. Different loop speeds are not a problem in themselves. The problem is the amount of change in flight that is not yet validated or not yet understood, and the cost of correcting it late. Validation arrives in time; understanding may not, and understanding is what steers the next change. When corrections are large and the feedback on them is slow, they are made on understanding that is already out of date, and fixes compound into rework.
+Agents speed up the inner loops enormously. The outer loops are still led by people, and run at the pace people do. Different loop speeds are not a problem in themselves. The problem is the amount of change in flight whose correctness is not yet known, or that the team's theory has not yet caught up with, and the cost of correcting it late. Correctness is known in time; the theory may never catch up, and the theory is what steers the next change. When corrections are large and the feedback on them is slow, they are made on a theory that is already out of date, and fixes compound into rework.
 
 The symptoms are already visible. Chen and Stratton studied 718 firms and found that AI agents raised lines of code, commits and pull requests by 20–30%, with no significant rise in the work shipped. Review became the bottleneck.[^chen] Faros reports larger pull requests, less review and more incidents as agent throughput rises.[^faros] Large batches with slow feedback make outcomes worse.[^reinertsen]
 
-## Validation depends on theory
+## Feedback depends on theory
 
 Those studies show the symptom: change piling up in flight but don't show the cause. For that I go back to Peter Naur.
 
-Naur argued that the primary product of programming is not the code. It is the theory held in the programmers' heads: the knowledge needed to explain how the world maps onto the system, why each part is as it is, and how it can change.[^naur] Meaningful feedback from the outer loops depends on people still holding that theory. A system can pass all its tests while the people responsible for it lose the understanding they need to spot a mistaken assumption.
+Naur argued that the primary product of programming is not the code. It is the theory held in the programmers' heads: the knowledge needed to explain how the world maps onto the system, why each part is as it is, and how it can change.[^naur] Meaningful feedback from the outer loops depends on people still holding that theory. A system can pass all its tests while the people responsible for it lose the theory they need to spot a mistaken assumption.
 
 Theory, or whatever word you prefer, is the critical thing to keep in human heads. I argued for it in [Who Holds the Theory]({% post_url 2026-11-02-who-holds-the-theory %}).
 
@@ -81,7 +81,7 @@ Building theory is learning, so it is slow and sometimes painful. It is a constr
 
 The obvious reply is that the bottleneck is just a shortage of review, and the answer is more reviewers. But reviewers can be added only as fast as they build the theory the rest of the team holds. That is Brooks's law seen from a different angle: the time new people need before they are useful is the time it takes them to build the theory.[^brooks] Review can keep an existing theory up to date, but it builds far less theory than doing, and it rarely produces the *aha* moments that come from doing the work. A reviewer learns what changed without necessarily learning why. Theory is built by doing the thing, which is the generation effect I discussed in [Who Holds the Theory]({% post_url 2026-11-02-who-holds-the-theory %}).
 
-Adding reviewers tries to shorten the queue, but what matters more is where the queue sits. A queue in the backlog, before the work starts, is cheap: unstarted work carries no change waiting to be understood. A queue in flight is expensive: it is the beer in transit, change the team has not yet understood. The aim is to keep the queue in the backlog.
+Adding reviewers tries to shorten the queue, but what matters more is where the queue sits. A queue in the backlog, before the work starts, is cheap: unstarted work carries no change waiting for the theory to catch up. A queue in flight is expensive: it is the beer in transit, change the team's theory has not yet caught up with. The aim is to keep the queue in the backlog.
 
 In [Who Holds the Theory]({% post_url 2026-11-02-who-holds-the-theory %}) I asked, one change at a time, who must hold the theory of a change and for how long. I separated theory-dependent decisions, which can't be made well without the theory, from theory-neutral ones, which conform to a mapping already decided. And I argued that only someone who already holds the theory can tell which is which. This essay goes from the single change to the flow of many.
 
@@ -90,17 +90,17 @@ In [Who Holds the Theory]({% post_url 2026-11-02-who-holds-the-theory %}) I aske
 The people who hold the theory set the pace. They are a finite group that do four things:
 
 1. sort the work
-2. review a sample of the changes delegated to agents: not all of them, but enough to keep an overview and check that the changes fit their understanding of the system
+2. review a sample of the changes delegated to agents: not all of them, but enough to keep an overview and check that the changes fit their theory of the system
 3. watch outcomes
 4. do the theory-dependent work themselves
 
 In Goldratt's terms the team is the constraint, and the right thing to do with a constraint is to exploit it and subordinate everything else to it.[^goldratt] Exploiting it means spending the team's time only where the theory is needed. Subordinating to it means agents run at the pace the team can absorb, and no faster.
 
-This system can still go awry. The danger is slow drift: each change is pulled a step towards agent autonomy, until the team is sorting faster than it can understand.
+This system can still go awry. The danger is slow drift: each change is pulled a step towards agent autonomy, until the team is sorting faster than its theory can keep up.
 
-Deciding when a change is understood well enough is itself a judgement grounded in theory. The people who hold the theory decide when a change stops counting as work in flight. Passing tests or merging the code does not settle that.
+Deciding when the team's theory has caught up with a change is itself a judgement grounded in theory. The people who hold the theory decide when a change stops counting as work in flight. Passing tests or merging the code does not settle that.
 
-What ties intake to understanding is discipline and careful adherence to process. XP teams have kept up demanding disciplines for years so I am not concerned about that. But it has to be XP's kind of discipline, built into how the work is done rather than depending on each person remembering it. The board, the limit on work in progress and the sampling are part of the routine.
+What ties intake to the theory is discipline and careful adherence to process. XP teams have kept up demanding disciplines for years so I am not concerned about that. But it has to be XP's kind of discipline, built into how the work is done rather than depending on each person remembering it. The board, the limit on work in progress and the sampling are part of the routine.
 
 This whole process is for teams capable of that discipline. If people stop caring, stop being disciplined, stop reflecting, it's game over.
 
@@ -116,7 +116,7 @@ So the people who hold the theory sort the work, as I described in [Who Holds th
 
 ### Does it need the theory?
 
-A theory-neutral change conforms to well understood patterns in the codebase. Adding a field and carrying it from the model through the database to the UI, following a pattern the team has agreed, is understood before it is written. The team recognises it as something the system already handles. A team has this theory in advance of doing the work.
+A theory-neutral change conforms to established patterns in the codebase. Adding a field and carrying it from the model through the database to the UI, following a pattern the team has agreed, has its theory before it is written. The team recognises it as something the system already handles. A team has this theory in advance of doing the work.
 
 A theory-dependent change alters logic, architecture or design, or can't be judged without the theory. Making the change is (potentially) theory building.
 
@@ -155,7 +155,7 @@ None of this means the top left goes unchecked. The check moves earlier, to sort
 
 ## Where defaults come from
 
-Systems are made of layers and components with very different risks. Some are boilerplate, well understood and low risk, like a disposable website layout. Others are consequential: billing, identity, privacy, anything touching money or security. A map of which is which gives each piece of work a default box.
+Systems are made of layers and components with very different risks. Some are boilerplate, established and low risk, like a disposable website layout. Others are consequential: billing, identity, privacy, anything touching money or security. A map of which is which gives each piece of work a default box.
 
 In consequential areas, people own the rules, the invariants and the design rationale. People also govern the interfaces and authority boundaries between low-risk and high-risk areas, even when they delegate the implementation.
 
@@ -164,6 +164,21 @@ Decisions override components, though. A theory-neutral change in billing, such 
 ## When the sorting is wrong
 
 This approach is only as safe as its sorting, and sorting has two weaknesses. It happens before the work shows what it touches, so it is a prediction made with the least information the team will ever have about that item. And the most dangerous changes look neutral, so they are the likeliest to be sorted wrongly, sending them to the box with the least attention.
+
+The chain below follows an item that needed the theory but was sorted as neutral. It shows where each signal sits, and where none does.
+
+```mermaid
+flowchart TD
+  S["Theory-dependent item sorted as neutral"] --> A["Agent does the work"]
+  A -- "work doesn't fit the pattern" --> F["Signal: agent friction"]
+  F --> H["Theory-holder steps in, cheaply"]
+  A -- "work fits the pattern" --> B{"Does the change behave correctly?"}
+  B -- no --> D["Signal: escaped defect, late"]
+  B -- yes --> G["Merged; doesn't fit the theory; no signal"]
+  G -- "may take a long time" --> L["Signal: theory-holders meet it in later theory-dependent work"]
+  D --> R["Rework at the expensive rate"]
+  L --> R
+```
 
 There are three signals for detecting mistakes in sorting:
 
@@ -195,7 +210,7 @@ That leaves a gap. A change can behave correctly but not fit the theory of the s
 
 *No sensible team delegates whatever an agent can do.* Many teams do, and the evidence suggests it is common: more code, more pull requests, less review and more incidents.[^chen][^faros] That is the practice I am arguing against. If your team already works this way, so much the better.
 
-*Sorting is overhead that kills the speed agents give us.* For someone who holds the theory, sorting most items is quick. When an item is hard to sort, that is a sign it needs the theory, and an agent would do worse with it. Speed beyond what the team can understand is not speed: it is more beer in transit.
+*Sorting is overhead that kills the speed agents give us.* For someone who holds the theory, sorting most items is quick. When an item is hard to sort, that is a sign it needs the theory, and an agent would do worse with it. Speed beyond what the team's theory can keep up with is not speed: it is more beer in transit.
 
 *Our tests catch the mistakes.* Tests check behaviour against what someone wrote down. They don't check whether a change fits the theory.
 
@@ -207,9 +222,9 @@ As for gates, *Accelerate* found that approval by a body outside the team slowed
 
 ## Count what's already on its way
 
-The beer game players who do best order steadily and count the supply line. For a team working with agents, the supply line is change not yet understood. The people who hold the theory judge when each change is understood well enough, and build new theory where the change requires it.
+The beer game players who do best order steadily and count the supply line. For a team working with agents, the supply line is change the team's theory has not yet caught up with. The people who hold the theory judge when it has caught up with each change, and build new theory where the change requires it.
 
-Sort each piece of work by whether it needs the theory and what a mistake would cost. Keep the queue in the backlog, where it is cheap. Let agents go as fast as the people who hold the theory can absorb, and no faster.
+Sort each piece of work by whether it needs the theory and what a mistake would cost. Keep the queue in the backlog, where it is cheap. Let agents go as fast as the theory can keep up, and no faster.
 
 *See also: [TDD from a Control Theory POV]({% post_url 2009-10-02-tdd-control-theory %}).*
 
